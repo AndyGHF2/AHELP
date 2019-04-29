@@ -2,9 +2,9 @@
 ; #### CRMP UDF R1 #####
 ; # CRMP Version: 0.3e #
 ; ######################
-; Переводил: Revalto
+; ГЏГҐГ°ГҐГўГ®Г¤ГЁГ«: Revalto
 ; SAMPUDF -> CRMPUDF
-; ####################
+; ###################
 
 ; Samp-udf-addon
 global ADDR_SET_POSITION := 0xB7CD98
@@ -62,21 +62,21 @@ global ADDR_VEHICLE_Z               := 0x4C          ;Vehicle Speed Z
 global oAirplaneModels := [417, 425, 447, 460, 469, 476, 487, 488, 497, 511, 512, 513, 519, 520, 548, 553, 563, 577, 592, 593]
 global oBikeModels := [481,509,510]
 global ovehicleNames := ["Landstalker","Bravura","Buffalo","Linerunner","Perrenial","Sentinel","Dumper","Firetruck","Trashmaster","Stretch","Manana","Infernus","Voodoo","Pony","Mule","Cheetah","Ambulance","Leviathan","Moonbeam","Esperanto","Taxi","Washington","Bobcat","Whoopee","BFInjection","Hunter","Premier","Enforcer","Securicar","Banshee","Predator","Bus","Rhino","Barracks","Hotknife","Trailer","Previon","Coach","Cabbie","Stallion","Rumpo","RCBandit","Romero","Packer","Monster","Admiral","Squalo","Seasparrow","Pizzaboy","Tram","Trailer","Turismo","Speeder","Reefer","Tropic","Flatbed","Yankee","Caddy","Solair","Berkley'sRCVan","Skimmer","PCJ-600","Faggio","Freeway","RCBaron","RCRaider","Glendale","Oceanic","Sanchez","Sparrow","Patriot","Quad","Coastguard","Dinghy","Hermes","Sabre","Rustler","ZR-350","Walton","Regina","Comet","BMX","Burrito","Camper","Marquis","Baggage","Dozer","Maverick","NewsChopper","Rancher","FBIRancher","Virgo","Greenwood","Jetmax","Hotring","Sandking","BlistaCompact","PoliceMaverick","Boxvillde","Benson","Mesa","RCGoblin","HotringRacerA","HotringRacerB","BloodringBanger","Rancher","SuperGT","Elegant","Journey","Bike","MountainBike","Beagle","Cropduster","Stunt","Tanker","Roadtrain","Nebula","Majestic","Buccaneer","Shamal","hydra","FCR-900","NRG-500","HPV1000","CementTruck","TowTruck","Fortune","Cadrona","FBITruck","Willard","Forklift","Tractor","Combine","Feltzer","Remington","Slamvan","Blade","Freight","Streak","Vortex","Vincent","Bullet","Clover","Sadler","Firetruck","Hustler","Intruder","Primo","Cargobob","Tampa","Sunrise","Merit","Utility","Nevada","Yosemite","Windsor","Monster","Monster","Uranus","Jester","Sultan","Stratum","Elegy","Raindance","RCTiger","Flash","Tahoma","Savanna","Bandito","FreightFlat","StreakCarriage","Kart","Mower","Dune","Sweeper","Broadway","Tornado","AT-400","DFT-30","Huntley","Stafford","BF-400","NewsVan","Tug","Trailer","Emperor","Wayfarer","Euros","Hotdog","Club","FreightBox","Trailer","Andromada","Dodo","RCCam","Launch","PoliceCar","PoliceCar","PoliceCar","PoliceRanger","Picador","S.W.A.T","Alpha","Phoenix","GlendaleShit","SadlerShit","Luggage","Luggage","Stairs","Boxville","Tiller","UtilityTrailer"]
-global oweaponNames := ["Fist","Brass Knuckles","Golf Club","Nightstick","Knife","Baseball Bat","Shovel","Pool Cue","Katana","Chainsaw","Purple Dildo","Dildo","Vibrator","Silver Vibrator","Flowers","Cane","Grenade","Tear Gas","Molotov Cocktail", "", "", "", "Пистолет","Пистолет с глушителем","Desert Eagle","Shotgun","Sawnoff Shotgun","Combat Shotgun","Micro SMG/Uzi","MP5","AK-47","M4","Tec-9","Country Rifle","Sniper Rifle","RPG","HS Rocket","Flamethrower","Minigun","Satchel Charge","Detonator","Spraycan","Fire Extinguisher","Camera","Night Vis Goggles","Thermal Goggles","Parachute"]
+global oweaponNames := ["Fist","Brass Knuckles","Golf Club","Nightstick","Knife","Baseball Bat","Shovel","Pool Cue","Katana","Chainsaw","Purple Dildo","Dildo","Vibrator","Silver Vibrator","Flowers","Cane","Grenade","Tear Gas","Molotov Cocktail", "", "", "", "ГЏГЁГ±ГІГ®Г«ГҐГІ","ГЏГЁГ±ГІГ®Г«ГҐГІ Г± ГЈГ«ГіГёГЁГІГҐГ«ГҐГ¬","Desert Eagle","Shotgun","Sawnoff Shotgun","Combat Shotgun","Micro SMG/Uzi","MP5","AK-47","M4","Tec-9","Country Rifle","Sniper Rifle","RPG","HS Rocket","Flamethrower","Minigun","Satchel Charge","Detonator","Spraycan","Fire Extinguisher","Camera","Night Vis Goggles","Thermal Goggles","Parachute"]
 global oradiostationNames := ["Playback FM", "K Rose", "K-DST", "Bounce FM", "SF-UR", "Radio Los Santos", "Radio X", "CSR 103.9", "K-JAH West", "Master Sounds 98.3", "WCTR Talk Radio", "User Track Player", "Radio Off"]
 global oweatherNames := ["EXTRASUNNY_LA", "SUNNY_LA", "EXTRASUNNY_SMOG_LA", "SUNNY_SMOG_LA", "CLOUDY_LA", "SUNNY_SF", "EXTRASUNNY_SF", "CLOUDY_SF", "RAINY_SF", "FOGGY_SF", "SUNNY_VEGAS", "EXTRASUNNY_VEGAS", "CLOUDY_VEGAS", "EXTRASUNNY_COUNTRYSIDE", "SUNNY_COUNTRYSIDE", "CLOUDY_COUNTRYSIDE", "RAINY_COUNTRYSIDE", "EXTRASUNNY_DESERT", "SUNNY_DESERT", "SANDSTORM_DESERT", "UNDERWATER", "EXTRACOLOURS_1", "EXTRACOLOURS_2"]
 
 ; SAMP Addresses
-global ADDR_SAMP_INCHAT_PTR             := 0x20DFFC ; Работает | Спасибо - Drygok
-global ADDR_SAMP_INCHAT_PTR_OFF         := 0x55 ; Работает | Спасибо - Drygok
+global ADDR_SAMP_INCHAT_PTR             := 0x20DFFC ; ГђГ ГЎГ®ГІГ ГҐГІ | Г‘ГЇГ Г±ГЁГЎГ® - Drygok
+global ADDR_SAMP_INCHAT_PTR_OFF         := 0x55 ; ГђГ ГЎГ®ГІГ ГҐГІ | Г‘ГЇГ Г±ГЁГЎГ® - Drygok
 global ADDR_SAMP_USERNAME               := 0x219A6F
 global FUNC_SAMP_SENDCMD                := 0x62070 ;0x60910
 global FUNC_SAMP_SENDSAY                := 0x4A10 ;0x49F0
 global FUNC_SAMP_SHOWGAMETEXT           := 0x91A40
 global FUNC_SAMP_PLAYAUDIOSTR           := 0x62da0
 global FUNC_SAMP_STOPAUDIOSTR           := 0x629a0
-global FUNC_SAMP_ADDTOCHATWND           := 0x60C50 ; CR:MP 0.3e | Работает
-global ADDR_SAMP_CHATMSG_PTR            := 0x20DFD8 ; CR:MP 0.3e | Работает
+global FUNC_SAMP_ADDTOCHATWND           := 0x60C50 ; CR:MP 0.3e | ГђГ ГЎГ®ГІГ ГҐГІ
+global ADDR_SAMP_CHATMSG_PTR            := 0x20DFD8 ; CR:MP 0.3e | ГђГ ГЎГ®ГІГ ГҐГІ
 ; ########################## Dialog Styles ##########################
 global DIALOG_STYLE_MSGBOX			:= 0
 global DIALOG_STYLE_INPUT 			:= 1
@@ -88,21 +88,21 @@ global DIALOG_STYLE_TABLIST_HEADERS	:= 5
 
 ; ######################### Dialog Structure #########################
 global SAMP_DIALOG_LINENUMBER_OFFSET        := 0x140
-global SAMP_DIALOG_STRUCT_PTR				:= 0x20DFAC ; | Работает
-global SAMP_DIALOG_PTR1_OFFSET				:= 0x1C ; | Работает
-global SAMP_DIALOG_LINES_OFFSET 			:= 0x44C ; | Работает
-global SAMP_DIALOG_INDEX_OFFSET				:= 0x443 ; | Работает
-global SAMP_DIALOG_BUTTON_HOVERING_OFFSET	:= 0x465 ; | Работает
-global SAMP_DIALOG_BUTTON_CLICKED_OFFSET	:= 0x466 ; | Работает
-global SAMP_DIALOG_PTR2_OFFSET 				:= 0x20 ; | Работает
-global SAMP_DIALOG_LINECOUNT_OFFSET			:= 0x150 ; | Работает
-global SAMP_DIALOG_OPEN_OFFSET				:= 0x28 ; | Работает
-global SAMP_DIALOG_STYLE_OFFSET				:= 0x2C ; | Работает
-global SAMP_DIALOG_ID_OFFSET				:= 0x30 ; | Работает
+global SAMP_DIALOG_STRUCT_PTR				:= 0x20DFAC ; | ГђГ ГЎГ®ГІГ ГҐГІ
+global SAMP_DIALOG_PTR1_OFFSET				:= 0x1C ; | ГђГ ГЎГ®ГІГ ГҐГІ
+global SAMP_DIALOG_LINES_OFFSET 			:= 0x44C ; | ГђГ ГЎГ®ГІГ ГҐГІ
+global SAMP_DIALOG_INDEX_OFFSET				:= 0x443 ; | ГђГ ГЎГ®ГІГ ГҐГІ
+global SAMP_DIALOG_BUTTON_HOVERING_OFFSET	:= 0x465 ; | ГђГ ГЎГ®ГІГ ГҐГІ
+global SAMP_DIALOG_BUTTON_CLICKED_OFFSET	:= 0x466 ; | ГђГ ГЎГ®ГІГ ГҐГІ
+global SAMP_DIALOG_PTR2_OFFSET 				:= 0x20 ; | ГђГ ГЎГ®ГІГ ГҐГІ
+global SAMP_DIALOG_LINECOUNT_OFFSET			:= 0x150 ; | ГђГ ГЎГ®ГІГ ГҐГІ
+global SAMP_DIALOG_OPEN_OFFSET				:= 0x28 ; | ГђГ ГЎГ®ГІГ ГҐГІ
+global SAMP_DIALOG_STYLE_OFFSET				:= 0x2C ; | ГђГ ГЎГ®ГІГ ГҐГІ
+global SAMP_DIALOG_ID_OFFSET				:= 0x30 ; | ГђГ ГЎГ®ГІГ ГҐГІ
 global SAMP_DIALOG_TEXT                     := 0x12D8F8
 global SAMP_DIALOG_TEXT_PTR_OFFSET			:= 0x34
 global SAMP_DIALOG_CAPTION_OFFSET			:= 0x40
-global FUNC_SAMP_SHOWDIALOG				 	:= 0x668C0 ; Работает | Спасибо - Drygok
+global FUNC_SAMP_SHOWDIALOG				 	:= 0x668C0 ; ГђГ ГЎГ®ГІГ ГҐГІ | Г‘ГЇГ Г±ГЁГЎГ® - Drygok
 global FUNC_SAMP_CLOSEDIALOG				:= 0x6C040
 global SAMP_CHAT_SHOW                       := 0x21A0E8
 global FUNC_UPDATESCOREBOARD                := 0x8A10
@@ -151,160 +151,160 @@ global iUpdateTick := 2500 ;time in ms, used for getPlayerNameById etc. to refre
 
 ; #########################################################################################################################################################
 ; # 														                                                                                                                             
-; #     - IsSAMPAvailable()                                         - Состояние SAMP (0 - Запущен, 1 - Выключен) ; Не работает
-; #     - isInChat()                                                - Открыт ли чат (0 - нет, 1 - да) ; Не работает
-; #     - getUsername()                                             - Выводит твой ник
-; #     - getId()                                                   - Выводит твой ид
-; #     - SendChat(wText)                                           - Отправка сообщения в чат не открывая его(через память) ; Работает
-; #     - addChatMessage(wText)                                     - Отправить фейк сообщение в чат ; Работает
-; #     - showGameText(wText, dwTime, dwTextsize)                   - Показать GUI текст (не работает с русским языком) ; Не проверял
-; #     - playAudioStream(wUrl)                                     - Проигрывает песню по url ; Не проверял
-; #     - stopAudioStream()                                         - Останавливает проигрывание ; Не проверял
-; #	    - GetChatLine(Line, Output)                                 - Вывод строки из чат лога (Line=0 - Это последняя строка) (Output - вывод текста) ; Не проверял
+; #     - IsSAMPAvailable()                                         - Г‘Г®Г±ГІГ®ГїГ­ГЁГҐ SAMP (0 - Г‡Г ГЇГіГ№ГҐГ­, 1 - Г‚Г»ГЄГ«ГѕГ·ГҐГ­) ; ГЌГҐ Г°Г ГЎГ®ГІГ ГҐГІ
+; #     - isInChat()                                                - ГЋГІГЄГ°Г»ГІ Г«ГЁ Г·Г ГІ (0 - Г­ГҐГІ, 1 - Г¤Г ) ; ГЌГҐ Г°Г ГЎГ®ГІГ ГҐГІ
+; #     - getUsername()                                             - Г‚Г»ГўГ®Г¤ГЁГІ ГІГўГ®Г© Г­ГЁГЄ
+; #     - getId()                                                   - Г‚Г»ГўГ®Г¤ГЁГІ ГІГўГ®Г© ГЁГ¤
+; #     - SendChat(wText)                                           - ГЋГІГЇГ°Г ГўГЄГ  Г±Г®Г®ГЎГ№ГҐГ­ГЁГї Гў Г·Г ГІ Г­ГҐ Г®ГІГЄГ°Г»ГўГ Гї ГҐГЈГ®(Г·ГҐГ°ГҐГ§ ГЇГ Г¬ГїГІГј) ; ГђГ ГЎГ®ГІГ ГҐГІ
+; #     - addChatMessage(wText)                                     - ГЋГІГЇГ°Г ГўГЁГІГј ГґГҐГ©ГЄ Г±Г®Г®ГЎГ№ГҐГ­ГЁГҐ Гў Г·Г ГІ ; ГђГ ГЎГ®ГІГ ГҐГІ
+; #     - showGameText(wText, dwTime, dwTextsize)                   - ГЏГ®ГЄГ Г§Г ГІГј GUI ГІГҐГЄГ±ГІ (Г­ГҐ Г°Г ГЎГ®ГІГ ГҐГІ Г± Г°ГіГ±Г±ГЄГЁГ¬ ГїГ§Г»ГЄГ®Г¬) ; ГЌГҐ ГЇГ°Г®ГўГҐГ°ГїГ«
+; #     - playAudioStream(wUrl)                                     - ГЏГ°Г®ГЁГЈГ°Г»ГўГ ГҐГІ ГЇГҐГ±Г­Гѕ ГЇГ® url ; ГЌГҐ ГЇГ°Г®ГўГҐГ°ГїГ«
+; #     - stopAudioStream()                                         - ГЋГ±ГІГ Г­Г ГўГ«ГЁГўГ ГҐГІ ГЇГ°Г®ГЁГЈГ°Г»ГўГ Г­ГЁГҐ ; ГЌГҐ ГЇГ°Г®ГўГҐГ°ГїГ«
+; #	    - GetChatLine(Line, Output)                                 - Г‚Г»ГўГ®Г¤ Г±ГІГ°Г®ГЄГЁ ГЁГ§ Г·Г ГІ Г«Г®ГЈГ  (Line=0 - ГќГІГ® ГЇГ®Г±Г«ГҐГ¤Г­ГїГї Г±ГІГ°Г®ГЄГ ) (Output - ГўГ»ГўГ®Г¤ ГІГҐГЄГ±ГІГ ) ; ГЌГҐ ГЇГ°Г®ГўГҐГ°ГїГ«
 ; #
-; # 	- blockChatInput() 	                                        - Заблокировать писать в чат ; Работает
-; # 	- unBlockChatInput()                                        - Разрешить писать в чат (обратное предыдущему) ; Работает
+; # 	- blockChatInput() 	                                        - Г‡Г ГЎГ«Г®ГЄГЁГ°Г®ГўГ ГІГј ГЇГЁГ±Г ГІГј Гў Г·Г ГІ ; ГђГ ГЎГ®ГІГ ГҐГІ
+; # 	- unBlockChatInput()                                        - ГђГ Г§Г°ГҐГёГЁГІГј ГЇГЁГ±Г ГІГј Гў Г·Г ГІ (Г®ГЎГ°Г ГІГ­Г®ГҐ ГЇГ°ГҐГ¤Г»Г¤ГіГ№ГҐГ¬Гі) ; ГђГ ГЎГ®ГІГ ГҐГІ
 ; ###############################################################################################################################
 ; # 														                                                                    
-; #     - getServerName()                                           - Название сервера ; Не работает
-; #     - getServerIP()                                             - IP сервера ; Не работает
-; #     - getServerPort()                                           - Порт сервера ; Не работает
-; #     - CountOnlinePlayers()                                      - Кол-во человек на сервере ; Не работает
+; #     - getServerName()                                           - ГЌГ Г§ГўГ Г­ГЁГҐ Г±ГҐГ°ГўГҐГ°Г  ; ГЌГҐ Г°Г ГЎГ®ГІГ ГҐГІ
+; #     - getServerIP()                                             - IP Г±ГҐГ°ГўГҐГ°Г  ; ГЌГҐ Г°Г ГЎГ®ГІГ ГҐГІ
+; #     - getServerPort()                                           - ГЏГ®Г°ГІ Г±ГҐГ°ГўГҐГ°Г  ; ГЌГҐ Г°Г ГЎГ®ГІГ ГҐГІ
+; #     - CountOnlinePlayers()                                      - ГЉГ®Г«-ГўГ® Г·ГҐГ«Г®ГўГҐГЄ Г­Г  Г±ГҐГ°ГўГҐГ°ГҐ ; ГЌГҐ Г°Г ГЎГ®ГІГ ГҐГІ
 ; # 														                                                                   
 ; ###############################################################################################################################
 ; # 											
-; #	    - getWeatherID()			                                -  ИД погоды ; Не проверял
-; #	    - getWeatherName()	                                        -  Название погоды ; Не проверял
+; #	    - getWeatherID()			                                -  Г€Г„ ГЇГ®ГЈГ®Г¤Г» ; ГЌГҐ ГЇГ°Г®ГўГҐГ°ГїГ«
+; #	    - getWeatherName()	                                        -  ГЌГ Г§ГўГ Г­ГЁГҐ ГЇГ®ГЈГ®Г¤Г» ; ГЌГҐ ГЇГ°Г®ГўГҐГ°ГїГ«
 ; # 														                                             
 ; ###############################################################################################################################
 ; # 														                                             
-; #     - patchRadio() (interner stuff) ; Не проверял										                         
-; #     - unPatchRadio() (interner stuff)		; Не проверял									                     
+; #     - patchRadio() (interner stuff) ; ГЌГҐ ГЇГ°Г®ГўГҐГ°ГїГ«										                         
+; #     - unPatchRadio() (interner stuff)		; ГЌГҐ ГЇГ°Г®ГўГҐГ°ГїГ«									                     
 ; # 														                                             
 ; ###############################################################################################################################
 ; #							
-; #     - setDialogState(0)                                         - Скрыть диалог ; | Работает
-; #     - setDialogState(1)                                         - Отобразить скрытый диалог ; | Работает
-; #	    - isDialogOpen()                                            - Если открыт диалог 1, если не открыт 0 ; | Работает 
-; #	    - getDialogStyle()                                          - Стиль диалога 0-5 ; | Работает                                           
-; #	    - getDialogID()                                             - Ид диалога ; | Работает                              
-; # 	- setDialogID(id)                                           - Установить ид диалогу ; | Не тестировал
-; # 	- getDialogIndex()                                          - Вывод выбраной линии (число) ; | Для чего она?)    
-; #     - getDialogLineNumber()                                     - Вывод выбраной линии (число) Замена getDialogIndex() ; | Работает        
-; #	    - getDialogCaption()                                        - Вывод названия диалога   ; | Работает          	         
-; #	    - getDialogText()                                           - Вывод текста из диалога; | Работает
-; #	    - getDialogLineCount()                                      - Всего строк в диалоге  ; | Не коректно                
-; # 	- getDialogLine(index)                                      - Выводит текст из строки ; | Работает
-; # 	- getDialogLines()                                          - Возвращает массив строк с диалога   ; | Не тестировал                               
-; # 	- isDialogButton1Selected()                                 - PrГјft, ob Button1 des Dialogs ausgewГ¤hlt ist  ; | Не тестировал
-; #     - getDialogStructPtr()                                      - Liest den Base Pointer zur Dialogstruktur aus (intern genutzt) ; | Работает
-; # 	- showDialog(style, caption, text, button1, button2, id)    - Показывает визуальный диалог  ; | Не работает
+; #     - setDialogState(0)                                         - Г‘ГЄГ°Г»ГІГј Г¤ГЁГ Г«Г®ГЈ ; | ГђГ ГЎГ®ГІГ ГҐГІ
+; #     - setDialogState(1)                                         - ГЋГІГ®ГЎГ°Г Г§ГЁГІГј Г±ГЄГ°Г»ГІГ»Г© Г¤ГЁГ Г«Г®ГЈ ; | ГђГ ГЎГ®ГІГ ГҐГІ
+; #	    - isDialogOpen()                                            - Г…Г±Г«ГЁ Г®ГІГЄГ°Г»ГІ Г¤ГЁГ Г«Г®ГЈ 1, ГҐГ±Г«ГЁ Г­ГҐ Г®ГІГЄГ°Г»ГІ 0 ; | ГђГ ГЎГ®ГІГ ГҐГІ 
+; #	    - getDialogStyle()                                          - Г‘ГІГЁГ«Гј Г¤ГЁГ Г«Г®ГЈГ  0-5 ; | ГђГ ГЎГ®ГІГ ГҐГІ                                           
+; #	    - getDialogID()                                             - Г€Г¤ Г¤ГЁГ Г«Г®ГЈГ  ; | ГђГ ГЎГ®ГІГ ГҐГІ                              
+; # 	- setDialogID(id)                                           - Г“Г±ГІГ Г­Г®ГўГЁГІГј ГЁГ¤ Г¤ГЁГ Г«Г®ГЈГі ; | ГЌГҐ ГІГҐГ±ГІГЁГ°Г®ГўГ Г«
+; # 	- getDialogIndex()                                          - Г‚Г»ГўГ®Г¤ ГўГ»ГЎГ°Г Г­Г®Г© Г«ГЁГ­ГЁГЁ (Г·ГЁГ±Г«Г®) ; | Г„Г«Гї Г·ГҐГЈГ® Г®Г­Г ?)    
+; #     - getDialogLineNumber()                                     - Г‚Г»ГўГ®Г¤ ГўГ»ГЎГ°Г Г­Г®Г© Г«ГЁГ­ГЁГЁ (Г·ГЁГ±Г«Г®) Г‡Г Г¬ГҐГ­Г  getDialogIndex() ; | ГђГ ГЎГ®ГІГ ГҐГІ        
+; #	    - getDialogCaption()                                        - Г‚Г»ГўГ®Г¤ Г­Г Г§ГўГ Г­ГЁГї Г¤ГЁГ Г«Г®ГЈГ    ; | ГђГ ГЎГ®ГІГ ГҐГІ          	         
+; #	    - getDialogText()                                           - Г‚Г»ГўГ®Г¤ ГІГҐГЄГ±ГІГ  ГЁГ§ Г¤ГЁГ Г«Г®ГЈГ ; | ГђГ ГЎГ®ГІГ ГҐГІ
+; #	    - getDialogLineCount()                                      - Г‚Г±ГҐГЈГ® Г±ГІГ°Г®ГЄ Гў Г¤ГЁГ Г«Г®ГЈГҐ  ; | ГЌГҐ ГЄГ®Г°ГҐГЄГІГ­Г®                
+; # 	- getDialogLine(index)                                      - Г‚Г»ГўГ®Г¤ГЁГІ ГІГҐГЄГ±ГІ ГЁГ§ Г±ГІГ°Г®ГЄГЁ ; | ГђГ ГЎГ®ГІГ ГҐГІ
+; # 	- getDialogLines()                                          - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ Г¬Г Г±Г±ГЁГў Г±ГІГ°Г®ГЄ Г± Г¤ГЁГ Г«Г®ГЈГ    ; | ГЌГҐ ГІГҐГ±ГІГЁГ°Г®ГўГ Г«                               
+; # 	- isDialogButton1Selected()                                 - PrГѓВјft, ob Button1 des Dialogs ausgewГѓВ¤hlt ist  ; | ГЌГҐ ГІГҐГ±ГІГЁГ°Г®ГўГ Г«
+; #     - getDialogStructPtr()                                      - Liest den Base Pointer zur Dialogstruktur aus (intern genutzt) ; | ГђГ ГЎГ®ГІГ ГҐГІ
+; # 	- showDialog(style, caption, text, button1, button2, id)    - ГЏГ®ГЄГ Г§Г»ГўГ ГҐГІ ГўГЁГ§ГіГ Г«ГјГ­Г»Г© Г¤ГЁГ Г«Г®ГЈ  ; | ГЌГҐ Г°Г ГЎГ®ГІГ ГҐГІ
 ; #
 ; ###############################################################################################################################
 ; # 														                                                                                                                      
-; #	    - getTargetPed(dwPED)   			                        - Возвращает PED ID, по таргету                                  
-; #     - getPedById(dwId)                                          - Возвращает PED ID по id игрока   
-; #     - getIdByPed(dwId)                                          - Ид по таргету (getIdByPed(getTargetPed()))
-; #     - getStreamedInPlayersInfo()                                - Получить информацию об игроках в радиусе стрима
-; #     - callFuncForAllStreamedInPlayers()                         - Получить всю информацию об игроках в радиусе стрима
-; #	    - getDist(pos1,pos2)   			                            - Получить дистанцию между двумя координатами 
-; #     - getClosestPlayerPed()                                     - Возвращает PED ID ближайшего игрока                                      
-; #     - getClosestPlayerId()                                      - Возвращает id ближайшего игрока                                          
-; #	    - getPedCoordinates(dwPED)   			                    - Возвращает кординаты (в зоне стрима) по PED ID                           
-; #     - getPlayerPosById(dwId)                                    - Возвращает позицию игрока по id                                          
-; #     - getTargetPlayerSkinIdByPed(dwPED)                         - Возвращает id скина по PED ID                                             
-; #     - getTargetPlayerSkinIdById(dwId)                           - Возвращает id скина по id игрока                                          
-; #     - calcScreenCoors(fX,fY,fZ)                                 - Возвращает массив координат [fX,fY,fZ] относительно экрана                  
+; #	    - getTargetPed(dwPED)   			                        - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ PED ID, ГЇГ® ГІГ Г°ГЈГҐГІГі                                  
+; #     - getPedById(dwId)                                          - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ PED ID ГЇГ® id ГЁГЈГ°Г®ГЄГ    
+; #     - getIdByPed(dwId)                                          - Г€Г¤ ГЇГ® ГІГ Г°ГЈГҐГІГі (getIdByPed(getTargetPed()))
+; #     - getStreamedInPlayersInfo()                                - ГЏГ®Г«ГіГ·ГЁГІГј ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГѕ Г®ГЎ ГЁГЈГ°Г®ГЄГ Гµ Гў Г°Г Г¤ГЁГіГ±ГҐ Г±ГІГ°ГЁГ¬Г 
+; #     - callFuncForAllStreamedInPlayers()                         - ГЏГ®Г«ГіГ·ГЁГІГј ГўГ±Гѕ ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГѕ Г®ГЎ ГЁГЈГ°Г®ГЄГ Гµ Гў Г°Г Г¤ГЁГіГ±ГҐ Г±ГІГ°ГЁГ¬Г 
+; #	    - getDist(pos1,pos2)   			                            - ГЏГ®Г«ГіГ·ГЁГІГј Г¤ГЁГ±ГІГ Г­Г¶ГЁГѕ Г¬ГҐГ¦Г¤Гі Г¤ГўГіГ¬Гї ГЄГ®Г®Г°Г¤ГЁГ­Г ГІГ Г¬ГЁ 
+; #     - getClosestPlayerPed()                                     - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ PED ID ГЎГ«ГЁГ¦Г Г©ГёГҐГЈГ® ГЁГЈГ°Г®ГЄГ                                       
+; #     - getClosestPlayerId()                                      - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ id ГЎГ«ГЁГ¦Г Г©ГёГҐГЈГ® ГЁГЈГ°Г®ГЄГ                                           
+; #	    - getPedCoordinates(dwPED)   			                    - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ ГЄГ®Г°Г¤ГЁГ­Г ГІГ» (Гў Г§Г®Г­ГҐ Г±ГІГ°ГЁГ¬Г ) ГЇГ® PED ID                           
+; #     - getPlayerPosById(dwId)                                    - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ ГЇГ®Г§ГЁГ¶ГЁГѕ ГЁГЈГ°Г®ГЄГ  ГЇГ® id                                          
+; #     - getTargetPlayerSkinIdByPed(dwPED)                         - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ id Г±ГЄГЁГ­Г  ГЇГ® PED ID                                             
+; #     - getTargetPlayerSkinIdById(dwId)                           - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ id Г±ГЄГЁГ­Г  ГЇГ® id ГЁГЈГ°Г®ГЄГ                                           
+; #     - calcScreenCoors(fX,fY,fZ)                                 - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ Г¬Г Г±Г±ГЁГў ГЄГ®Г®Г°Г¤ГЁГ­Г ГІ [fX,fY,fZ] Г®ГІГ­Г®Г±ГЁГІГҐГ«ГјГ­Г® ГЅГЄГ°Г Г­Г                   
 ; # 														                                                                                                                              
-; #	    - getVehiclePointerByPed(dwPED)   			                - Возвращает указатель на транспорт по PED ID                               
-; #	    - getVehiclePointerById(dwId)   			                - Возвращает указатель на транспорт по id игрока                            
-; #     - isTargetInAnyVehicleByPed(dwPED)                          - Проверяет находится ли игрок в транспорте по PED ID                       
-; #     - isTargetInAnyVehicleById(dwId)                            - Проверяет находится ли игрок в транспорте по id игрока                    
-; #     - getTargetVehicleHealthByPed(dwPED)                        - Возвращает hp транспорта по PED ID                                        
-; #     - getTargetVehicleHealthById(dwId)                          - Возвращает hp транспорта по id игрока                                     
-; #     - getTargetVehicleTypeByPed(dwPED)                          - Возвращает тип транспорта по PED ID (возвращает число, а не название)     
-; #     - getTargetVehicleTypeById(dwId)                            - Возвращает тип транспорта по id игрока (возвращает число, а не название)  
-; #     - getTargetVehicleModelIdByPed(dwPED)                       - Возвращает номер модели транспорта по PED ID                              
-; #     - getTargetVehicleModelIdById(dwId)                         - Возвращает номер модели транспорта по id игрока                           
-; #     - getTargetVehicleModelNameByPed(dwPED)                     - Возвращает название модели транспорта по PED ID 				            
-; #     - getTargetVehicleModelNameById(dwId)                       - Возвращает название модели транспорта по id игрока 				        
-; #     - getTargetVehicleLightStateByPed(dwPED)                    - Возвращает состояние света транспорта по PED ID (вкл./выкл.)			    
-; #     - getTargetVehicleLightStateById(dwId)                      - Возвращает состояние света транспорта по id игрока (вкл./выкл.)		    
-; #     - getTargetVehicleEngineStateByPed(dwPED)                   - Возвращает состояние мотора транспорта по PED ID (вкл./выкл.)			    
-; #     - getTargetVehicleEngineStateById(dwId)                     - Возвращает состояние мотора транспорта по id игрока (вкл./выкл.) 			
-; #     - getTargetVehicleLockStateByPed(dwPED)                     - Возвращает состояние дверей транспорта по PED ID (закрыты/открыты) 	    
-; #     - getTargetVehicleLockStateById(dwId)                       - Возвращает состояние дверей транспорта по id игрока (закрыты/открыты)     
-; #     - getTargetVehicleColor1ByPed(dwPED)                        - Возвращает 1-й цвет транспорта по PED ID 			                        
-; #     - getTargetVehicleColor1ById(dwId)                          - Возвращает 1-й цвет транспорта по id игрока			                    
-; #     - getTargetVehicleColor2ByPed(dwPED)                        - Возвращает 2-й цвет транспорта по PED ID 			                        
-; #     - getTargetVehicleColor2ById(dwId)                          - Возвращает 2-й цвет транспорта по id игрока 			                    
-; #     - getTargetVehicleSpeedByPed(dwPED)                         - Возвращает текущую скорость транспорта по PED ID			               
-; #     - getTargetVehicleSpeedById(dwId)                           - Возвращает текущую скорость транспорта по id игрока		               
+; #	    - getVehiclePointerByPed(dwPED)   			                - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ ГіГЄГ Г§Г ГІГҐГ«Гј Г­Г  ГІГ°Г Г­Г±ГЇГ®Г°ГІ ГЇГ® PED ID                               
+; #	    - getVehiclePointerById(dwId)   			                - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ ГіГЄГ Г§Г ГІГҐГ«Гј Г­Г  ГІГ°Г Г­Г±ГЇГ®Г°ГІ ГЇГ® id ГЁГЈГ°Г®ГЄГ                             
+; #     - isTargetInAnyVehicleByPed(dwPED)                          - ГЏГ°Г®ГўГҐГ°ГїГҐГІ Г­Г ГµГ®Г¤ГЁГІГ±Гї Г«ГЁ ГЁГЈГ°Г®ГЄ Гў ГІГ°Г Г­Г±ГЇГ®Г°ГІГҐ ГЇГ® PED ID                       
+; #     - isTargetInAnyVehicleById(dwId)                            - ГЏГ°Г®ГўГҐГ°ГїГҐГІ Г­Г ГµГ®Г¤ГЁГІГ±Гї Г«ГЁ ГЁГЈГ°Г®ГЄ Гў ГІГ°Г Г­Г±ГЇГ®Г°ГІГҐ ГЇГ® id ГЁГЈГ°Г®ГЄГ                     
+; #     - getTargetVehicleHealthByPed(dwPED)                        - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ hp ГІГ°Г Г­Г±ГЇГ®Г°ГІГ  ГЇГ® PED ID                                        
+; #     - getTargetVehicleHealthById(dwId)                          - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ hp ГІГ°Г Г­Г±ГЇГ®Г°ГІГ  ГЇГ® id ГЁГЈГ°Г®ГЄГ                                      
+; #     - getTargetVehicleTypeByPed(dwPED)                          - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ ГІГЁГЇ ГІГ°Г Г­Г±ГЇГ®Г°ГІГ  ГЇГ® PED ID (ГўГ®Г§ГўГ°Г Г№Г ГҐГІ Г·ГЁГ±Г«Г®, Г  Г­ГҐ Г­Г Г§ГўГ Г­ГЁГҐ)     
+; #     - getTargetVehicleTypeById(dwId)                            - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ ГІГЁГЇ ГІГ°Г Г­Г±ГЇГ®Г°ГІГ  ГЇГ® id ГЁГЈГ°Г®ГЄГ  (ГўГ®Г§ГўГ°Г Г№Г ГҐГІ Г·ГЁГ±Г«Г®, Г  Г­ГҐ Г­Г Г§ГўГ Г­ГЁГҐ)  
+; #     - getTargetVehicleModelIdByPed(dwPED)                       - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ Г­Г®Г¬ГҐГ° Г¬Г®Г¤ГҐГ«ГЁ ГІГ°Г Г­Г±ГЇГ®Г°ГІГ  ГЇГ® PED ID                              
+; #     - getTargetVehicleModelIdById(dwId)                         - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ Г­Г®Г¬ГҐГ° Г¬Г®Г¤ГҐГ«ГЁ ГІГ°Г Г­Г±ГЇГ®Г°ГІГ  ГЇГ® id ГЁГЈГ°Г®ГЄГ                            
+; #     - getTargetVehicleModelNameByPed(dwPED)                     - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ Г­Г Г§ГўГ Г­ГЁГҐ Г¬Г®Г¤ГҐГ«ГЁ ГІГ°Г Г­Г±ГЇГ®Г°ГІГ  ГЇГ® PED ID 				            
+; #     - getTargetVehicleModelNameById(dwId)                       - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ Г­Г Г§ГўГ Г­ГЁГҐ Г¬Г®Г¤ГҐГ«ГЁ ГІГ°Г Г­Г±ГЇГ®Г°ГІГ  ГЇГ® id ГЁГЈГ°Г®ГЄГ  				        
+; #     - getTargetVehicleLightStateByPed(dwPED)                    - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ Г±Г®Г±ГІГ®ГїГ­ГЁГҐ Г±ГўГҐГІГ  ГІГ°Г Г­Г±ГЇГ®Г°ГІГ  ГЇГ® PED ID (ГўГЄГ«./ГўГ»ГЄГ«.)			    
+; #     - getTargetVehicleLightStateById(dwId)                      - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ Г±Г®Г±ГІГ®ГїГ­ГЁГҐ Г±ГўГҐГІГ  ГІГ°Г Г­Г±ГЇГ®Г°ГІГ  ГЇГ® id ГЁГЈГ°Г®ГЄГ  (ГўГЄГ«./ГўГ»ГЄГ«.)		    
+; #     - getTargetVehicleEngineStateByPed(dwPED)                   - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ Г±Г®Г±ГІГ®ГїГ­ГЁГҐ Г¬Г®ГІГ®Г°Г  ГІГ°Г Г­Г±ГЇГ®Г°ГІГ  ГЇГ® PED ID (ГўГЄГ«./ГўГ»ГЄГ«.)			    
+; #     - getTargetVehicleEngineStateById(dwId)                     - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ Г±Г®Г±ГІГ®ГїГ­ГЁГҐ Г¬Г®ГІГ®Г°Г  ГІГ°Г Г­Г±ГЇГ®Г°ГІГ  ГЇГ® id ГЁГЈГ°Г®ГЄГ  (ГўГЄГ«./ГўГ»ГЄГ«.) 			
+; #     - getTargetVehicleLockStateByPed(dwPED)                     - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ Г±Г®Г±ГІГ®ГїГ­ГЁГҐ Г¤ГўГҐГ°ГҐГ© ГІГ°Г Г­Г±ГЇГ®Г°ГІГ  ГЇГ® PED ID (Г§Г ГЄГ°Г»ГІГ»/Г®ГІГЄГ°Г»ГІГ») 	    
+; #     - getTargetVehicleLockStateById(dwId)                       - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ Г±Г®Г±ГІГ®ГїГ­ГЁГҐ Г¤ГўГҐГ°ГҐГ© ГІГ°Г Г­Г±ГЇГ®Г°ГІГ  ГЇГ® id ГЁГЈГ°Г®ГЄГ  (Г§Г ГЄГ°Г»ГІГ»/Г®ГІГЄГ°Г»ГІГ»)     
+; #     - getTargetVehicleColor1ByPed(dwPED)                        - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ 1-Г© Г¶ГўГҐГІ ГІГ°Г Г­Г±ГЇГ®Г°ГІГ  ГЇГ® PED ID 			                        
+; #     - getTargetVehicleColor1ById(dwId)                          - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ 1-Г© Г¶ГўГҐГІ ГІГ°Г Г­Г±ГЇГ®Г°ГІГ  ГЇГ® id ГЁГЈГ°Г®ГЄГ 			                    
+; #     - getTargetVehicleColor2ByPed(dwPED)                        - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ 2-Г© Г¶ГўГҐГІ ГІГ°Г Г­Г±ГЇГ®Г°ГІГ  ГЇГ® PED ID 			                        
+; #     - getTargetVehicleColor2ById(dwId)                          - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ 2-Г© Г¶ГўГҐГІ ГІГ°Г Г­Г±ГЇГ®Г°ГІГ  ГЇГ® id ГЁГЈГ°Г®ГЄГ  			                    
+; #     - getTargetVehicleSpeedByPed(dwPED)                         - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ ГІГҐГЄГіГ№ГіГѕ Г±ГЄГ®Г°Г®Г±ГІГј ГІГ°Г Г­Г±ГЇГ®Г°ГІГ  ГЇГ® PED ID			               
+; #     - getTargetVehicleSpeedById(dwId)                           - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ ГІГҐГЄГіГ№ГіГѕ Г±ГЄГ®Г°Г®Г±ГІГј ГІГ°Г Г­Г±ГЇГ®Г°ГІГ  ГЇГ® id ГЁГЈГ°Г®ГЄГ 		               
 ; # 														                                             
 ; ############################################################################################################################################ ;
 ; #                                                                                                                                          # ;
-; #     - getPlayerScoreById(dwId)                 - Уровень игрока по ID 
-; #     - getPlayerPingById(dwId)                  - Пинг по ID
-; #     - getPlayerNameById(dwId)                  - Ник по ID
-; #     - getPlayerIdByName(wName)                 - ID по Нику
-; #     - updateScoreboardDataEx()                 - Обновить информацию в табе        
-; #     - updateOScoreboardData()                  - Обновить информацию в табе      
-; #	    - isNPCById(dwId)   		               - Являеться ли данный ид NPC или нет
+; #     - getPlayerScoreById(dwId)                 - Г“Г°Г®ГўГҐГ­Гј ГЁГЈГ°Г®ГЄГ  ГЇГ® ID 
+; #     - getPlayerPingById(dwId)                  - ГЏГЁГ­ГЈ ГЇГ® ID
+; #     - getPlayerNameById(dwId)                  - ГЌГЁГЄ ГЇГ® ID
+; #     - getPlayerIdByName(wName)                 - ID ГЇГ® ГЌГЁГЄГі
+; #     - updateScoreboardDataEx()                 - ГЋГЎГ­Г®ГўГЁГІГј ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГѕ Гў ГІГ ГЎГҐ        
+; #     - updateOScoreboardData()                  - ГЋГЎГ­Г®ГўГЁГІГј ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГѕ Гў ГІГ ГЎГҐ      
+; #	    - isNPCById(dwId)   		               - ГџГўГ«ГїГҐГІГјГ±Гї Г«ГЁ Г¤Г Г­Г­Г»Г© ГЁГ¤ NPC ГЁГ«ГЁ Г­ГҐГІ
 ; #                                                                                                                                          # ;
 ; ############################################################################################################################################ ;
 ; #                                                                                                                                          # ;
-; #     - getWeaponAmmo()                          -    1) Ammo - возвращает в переменную общее количество патрон. 
-; #                                                     2) Clip - возвращает в переменную количество патрон в магазине
-; #     - isPlayerCrouch()                         -    Состояние персонажа (1 - сидит, 0 - стоит, -1 - не заспанен)
-; #     - setHP(hp)                                -    Изменить себе ХП
-; #     - getPlayerHealth()                        -    Показывает кол-во хп
-; #     - getPlayerArmor()                         -    Показывает кол-во брони
-; # 	- getPlayerInteriorId()			           -    ID интерьера в котором вы находитесь
-; # 	- getPlayerSkinId()			               -    Показывает ID вашего скина
-; # 	- getPlayerMoney() 			               -    Показывает кол-во денег
-; #	    - getPlayerWanteds()			           -    Показывает кол-во звезд
-; #	    - getPlayerWeaponId()			           -    Показывает ID оружия в руках
-; #	    - getPlayerWeaponName()			           -    Показывает название оружия в руках
-; #	    - getPlayerState()			               -    Возвращает состояние локального игрока (возвращает число)    
-; # 	- getPlayerMapPosX()			           -    Позиция персонажа по координате X 
-; # 	- getPlayerMapPosY()			           -    Позиция персонажа по координате Y        
-; # 	- getPlayerMapZoom()			           -    Определяет масштаб на карте в меню           
-; # 	- IsPlayerFreezed()			               -    Определеяет заморожен ли игрок (0-Не заморожен, 1-Заморожен)            
+; #     - getWeaponAmmo()                          -    1) Ammo - ГўГ®Г§ГўГ°Г Г№Г ГҐГІ Гў ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ Г®ГЎГ№ГҐГҐ ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® ГЇГ ГІГ°Г®Г­. 
+; #                                                     2) Clip - ГўГ®Г§ГўГ°Г Г№Г ГҐГІ Гў ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® ГЇГ ГІГ°Г®Г­ Гў Г¬Г ГЈГ Г§ГЁГ­ГҐ
+; #     - isPlayerCrouch()                         -    Г‘Г®Г±ГІГ®ГїГ­ГЁГҐ ГЇГҐГ°Г±Г®Г­Г Г¦Г  (1 - Г±ГЁГ¤ГЁГІ, 0 - Г±ГІГ®ГЁГІ, -1 - Г­ГҐ Г§Г Г±ГЇГ Г­ГҐГ­)
+; #     - setHP(hp)                                -    Г€Г§Г¬ГҐГ­ГЁГІГј Г±ГҐГЎГҐ Г•ГЏ
+; #     - getPlayerHealth()                        -    ГЏГ®ГЄГ Г§Г»ГўГ ГҐГІ ГЄГ®Г«-ГўГ® ГµГЇ
+; #     - getPlayerArmor()                         -    ГЏГ®ГЄГ Г§Г»ГўГ ГҐГІ ГЄГ®Г«-ГўГ® ГЎГ°Г®Г­ГЁ
+; # 	- getPlayerInteriorId()			           -    ID ГЁГ­ГІГҐГ°ГјГҐГ°Г  Гў ГЄГ®ГІГ®Г°Г®Г¬ ГўГ» Г­Г ГµГ®Г¤ГЁГІГҐГ±Гј
+; # 	- getPlayerSkinId()			               -    ГЏГ®ГЄГ Г§Г»ГўГ ГҐГІ ID ГўГ ГёГҐГЈГ® Г±ГЄГЁГ­Г 
+; # 	- getPlayerMoney() 			               -    ГЏГ®ГЄГ Г§Г»ГўГ ГҐГІ ГЄГ®Г«-ГўГ® Г¤ГҐГ­ГҐГЈ
+; #	    - getPlayerWanteds()			           -    ГЏГ®ГЄГ Г§Г»ГўГ ГҐГІ ГЄГ®Г«-ГўГ® Г§ГўГҐГ§Г¤
+; #	    - getPlayerWeaponId()			           -    ГЏГ®ГЄГ Г§Г»ГўГ ГҐГІ ID Г®Г°ГіГ¦ГЁГї Гў Г°ГіГЄГ Гµ
+; #	    - getPlayerWeaponName()			           -    ГЏГ®ГЄГ Г§Г»ГўГ ГҐГІ Г­Г Г§ГўГ Г­ГЁГҐ Г®Г°ГіГ¦ГЁГї Гў Г°ГіГЄГ Гµ
+; #	    - getPlayerState()			               -    Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ Г±Г®Г±ГІГ®ГїГ­ГЁГҐ Г«Г®ГЄГ Г«ГјГ­Г®ГЈГ® ГЁГЈГ°Г®ГЄГ  (ГўГ®Г§ГўГ°Г Г№Г ГҐГІ Г·ГЁГ±Г«Г®)    
+; # 	- getPlayerMapPosX()			           -    ГЏГ®Г§ГЁГ¶ГЁГї ГЇГҐГ°Г±Г®Г­Г Г¦Г  ГЇГ® ГЄГ®Г®Г°Г¤ГЁГ­Г ГІГҐ X 
+; # 	- getPlayerMapPosY()			           -    ГЏГ®Г§ГЁГ¶ГЁГї ГЇГҐГ°Г±Г®Г­Г Г¦Г  ГЇГ® ГЄГ®Г®Г°Г¤ГЁГ­Г ГІГҐ Y        
+; # 	- getPlayerMapZoom()			           -    ГЋГЇГ°ГҐГ¤ГҐГ«ГїГҐГІ Г¬Г Г±ГёГІГ ГЎ Г­Г  ГЄГ Г°ГІГҐ Гў Г¬ГҐГ­Гѕ           
+; # 	- IsPlayerFreezed()			               -    ГЋГЇГ°ГҐГ¤ГҐГ«ГҐГїГҐГІ Г§Г Г¬Г®Г°Г®Г¦ГҐГ­ Г«ГЁ ГЁГЈГ°Г®ГЄ (0-ГЌГҐ Г§Г Г¬Г®Г°Г®Г¦ГҐГ­, 1-Г‡Г Г¬Г®Г°Г®Г¦ГҐГ­)            
 ; #                                                                                                                                          # ;
 ; ############################################################################################################################################ ;
 ; #                                                                                                                                          # ;
-; #     - isPlayerInAnyVehicle()                   -    Находитесь ли вы в автомобиле (0-Нет, 1-Да)         
-; #     - getVehicleHealth()                       -    Кол-во HP у машины в которой вы находитесь
-; # 	- isPlayerDriver() 			               -    (-1 Вы не в автомобиле, 0 - Вы на посажирском сиденье, 1 - Вы водитель)		 
-; # 	- getVehicleType() 			               -    Тип автомобиля в котором вы находитесь
-; # 	- getVehicleModelId()			           -    ID машины в которой находитесь
-; # 	- getVehicleModelName() 		           -    Название машины
-; # 	- getVehicleLightState() 		           -    Включены ли фары машины в которой находитесь
-; # 	- getVehicleEngineState() 		           -    Заведен ли двигатель
-; # 	- getVehicleLockState() 		           -    Закрыт ли автомобиль
-; # 	- getVehicleColor1() 		               -    Цвет 1 машины
-; # 	- getVehicleColor2() 		               -    Цвет 2 машины
-; # 	- getVehicleSpeed() 		               -    Скорость автомобиля
-; # 	- getPlayerRadiostationID() 		       -    Ид радиостанции в автомобиле		 
-; # 	- getPlayerRadiostationName() 		       -    Название радиостанции в автомобиле		 		          
+; #     - isPlayerInAnyVehicle()                   -    ГЌГ ГµГ®Г¤ГЁГІГҐГ±Гј Г«ГЁ ГўГ» Гў Г ГўГІГ®Г¬Г®ГЎГЁГ«ГҐ (0-ГЌГҐГІ, 1-Г„Г )         
+; #     - getVehicleHealth()                       -    ГЉГ®Г«-ГўГ® HP Гі Г¬Г ГёГЁГ­Г» Гў ГЄГ®ГІГ®Г°Г®Г© ГўГ» Г­Г ГµГ®Г¤ГЁГІГҐГ±Гј
+; # 	- isPlayerDriver() 			               -    (-1 Г‚Г» Г­ГҐ Гў Г ГўГІГ®Г¬Г®ГЎГЁГ«ГҐ, 0 - Г‚Г» Г­Г  ГЇГ®Г±Г Г¦ГЁГ°Г±ГЄГ®Г¬ Г±ГЁГ¤ГҐГ­ГјГҐ, 1 - Г‚Г» ГўГ®Г¤ГЁГІГҐГ«Гј)		 
+; # 	- getVehicleType() 			               -    Г’ГЁГЇ Г ГўГІГ®Г¬Г®ГЎГЁГ«Гї Гў ГЄГ®ГІГ®Г°Г®Г¬ ГўГ» Г­Г ГµГ®Г¤ГЁГІГҐГ±Гј
+; # 	- getVehicleModelId()			           -    ID Г¬Г ГёГЁГ­Г» Гў ГЄГ®ГІГ®Г°Г®Г© Г­Г ГµГ®Г¤ГЁГІГҐГ±Гј
+; # 	- getVehicleModelName() 		           -    ГЌГ Г§ГўГ Г­ГЁГҐ Г¬Г ГёГЁГ­Г»
+; # 	- getVehicleLightState() 		           -    Г‚ГЄГ«ГѕГ·ГҐГ­Г» Г«ГЁ ГґГ Г°Г» Г¬Г ГёГЁГ­Г» Гў ГЄГ®ГІГ®Г°Г®Г© Г­Г ГµГ®Г¤ГЁГІГҐГ±Гј
+; # 	- getVehicleEngineState() 		           -    Г‡Г ГўГҐГ¤ГҐГ­ Г«ГЁ Г¤ГўГЁГЈГ ГІГҐГ«Гј
+; # 	- getVehicleLockState() 		           -    Г‡Г ГЄГ°Г»ГІ Г«ГЁ Г ГўГІГ®Г¬Г®ГЎГЁГ«Гј
+; # 	- getVehicleColor1() 		               -    Г–ГўГҐГІ 1 Г¬Г ГёГЁГ­Г»
+; # 	- getVehicleColor2() 		               -    Г–ГўГҐГІ 2 Г¬Г ГёГЁГ­Г»
+; # 	- getVehicleSpeed() 		               -    Г‘ГЄГ®Г°Г®Г±ГІГј Г ГўГІГ®Г¬Г®ГЎГЁГ«Гї
+; # 	- getPlayerRadiostationID() 		       -    Г€Г¤ Г°Г Г¤ГЁГ®Г±ГІГ Г­Г¶ГЁГЁ Гў Г ГўГІГ®Г¬Г®ГЎГЁГ«ГҐ		 
+; # 	- getPlayerRadiostationName() 		       -    ГЌГ Г§ГўГ Г­ГЁГҐ Г°Г Г¤ГЁГ®Г±ГІГ Г­Г¶ГЁГЁ Гў Г ГўГІГ®Г¬Г®ГЎГЁГ«ГҐ		 		          
 ; #                                                                                                                                          # ;
 ; ############################################################################################################################################ ;
 ; #                                                                                                                                          # ;
-; #     - getCoordinates()                          -   Вывод координат на которых находитесь                                                # ;
-; #	    - getPlayerPos(X,Y,Z) 			            -   Вывод координат на которых вы находитесь в переменные                                # ;
+; #     - getCoordinates()                          -   Г‚Г»ГўГ®Г¤ ГЄГ®Г®Г°Г¤ГЁГ­Г ГІ Г­Г  ГЄГ®ГІГ®Г°Г»Гµ Г­Г ГµГ®Г¤ГЁГІГҐГ±Гј                                                # ;
+; #	    - getPlayerPos(X,Y,Z) 			            -   Г‚Г»ГўГ®Г¤ ГЄГ®Г®Г°Г¤ГЁГ­Г ГІ Г­Г  ГЄГ®ГІГ®Г°Г»Гµ ГўГ» Г­Г ГµГ®Г¤ГЁГІГҐГ±Гј Гў ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г»ГҐ                                # ;
 ; #                                                                                                                                          # ;
 ; ############################################################################################################################################ ;
 ; #                                                                                                                                          # ;
-; #     - initZonesAndCities()                      - Инициализация районов и городов карты                                     
-; #     - calculateZone(X, Y, Z)                    - Возвращает название района по координатам                                 
-; #     - calculateCity(X, Y, Z)                    - Возвращает название города по координатам                                 
-; #     - getCurrentZonecode()                      - ..:: НЕ РАБОТАЕТ ::..                                                     
-; #     - AddZone(Name, X1, Y1, Z1, X2, Y2, Z2)     - Добавление нового района                                                  
-; #     - AddCity(Name, X1, Y1, Z1, X2, Y2, Z2)     - Добавление нового города                                                  
-; #	    - IsPlayerInRangeOfPoint(X, Y, Z, Radius)   - Проверяет находится ли локальный игрок в радиусе 3D координат             
-; #	    - IsPlayerInRangeOfPoint2D(X, Y, Radius)  - Проверяет находится ли локальный игрок в радиусе 2D координат             
-; #	    - getPlayerZone()                   	    - Возвращает название района локального игрока		                       
-; #	    - getPlayerCity()                   	    - Возвращает название города локального игрока                 					                                         
+; #     - initZonesAndCities()                      - Г€Г­ГЁГ¶ГЁГ Г«ГЁГ§Г Г¶ГЁГї Г°Г Г©Г®Г­Г®Гў ГЁ ГЈГ®Г°Г®Г¤Г®Гў ГЄГ Г°ГІГ»                                     
+; #     - calculateZone(X, Y, Z)                    - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ Г­Г Г§ГўГ Г­ГЁГҐ Г°Г Г©Г®Г­Г  ГЇГ® ГЄГ®Г®Г°Г¤ГЁГ­Г ГІГ Г¬                                 
+; #     - calculateCity(X, Y, Z)                    - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ Г­Г Г§ГўГ Г­ГЁГҐ ГЈГ®Г°Г®Г¤Г  ГЇГ® ГЄГ®Г®Г°Г¤ГЁГ­Г ГІГ Г¬                                 
+; #     - getCurrentZonecode()                      - ..:: ГЌГ… ГђГЂГЃГЋГ’ГЂГ…Г’ ::..                                                     
+; #     - AddZone(Name, X1, Y1, Z1, X2, Y2, Z2)     - Г„Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ Г­Г®ГўГ®ГЈГ® Г°Г Г©Г®Г­Г                                                   
+; #     - AddCity(Name, X1, Y1, Z1, X2, Y2, Z2)     - Г„Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ Г­Г®ГўГ®ГЈГ® ГЈГ®Г°Г®Г¤Г                                                   
+; #	    - IsPlayerInRangeOfPoint(X, Y, Z, Radius)   - ГЏГ°Г®ГўГҐГ°ГїГҐГІ Г­Г ГµГ®Г¤ГЁГІГ±Гї Г«ГЁ Г«Г®ГЄГ Г«ГјГ­Г»Г© ГЁГЈГ°Г®ГЄ Гў Г°Г Г¤ГЁГіГ±ГҐ 3D ГЄГ®Г®Г°Г¤ГЁГ­Г ГІ             
+; #	    - IsPlayerInRangeOfPoint2D(X, Y, Radius)  - ГЏГ°Г®ГўГҐГ°ГїГҐГІ Г­Г ГµГ®Г¤ГЁГІГ±Гї Г«ГЁ Г«Г®ГЄГ Г«ГјГ­Г»Г© ГЁГЈГ°Г®ГЄ Гў Г°Г Г¤ГЁГіГ±ГҐ 2D ГЄГ®Г®Г°Г¤ГЁГ­Г ГІ             
+; #	    - getPlayerZone()                   	    - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ Г­Г Г§ГўГ Г­ГЁГҐ Г°Г Г©Г®Г­Г  Г«Г®ГЄГ Г«ГјГ­Г®ГЈГ® ГЁГЈГ°Г®ГЄГ 		                       
+; #	    - getPlayerCity()                   	    - Г‚Г®Г§ГўГ°Г Г№Г ГҐГІ Г­Г Г§ГўГ Г­ГЁГҐ ГЈГ®Г°Г®Г¤Г  Г«Г®ГЄГ Г«ГјГ­Г®ГЈГ® ГЁГЈГ°Г®ГЄГ                  					                                         
 ; #                                                                                                                                          # ;
 ; ############################################################################################################################################ ;
 ; #                                                                                                                                          # ;
@@ -312,7 +312,7 @@ global iUpdateTick := 2500 ;time in ms, used for getPlayerNameById etc. to refre
 ; #     - AntiCrash()				                                                                                                         # ;
 ; #                                                                                                                                          # ;
 ; ############################################################################################################################################ ;                                            
-; # Функции для работы с памятью                                                                                                             # ;
+; # Г”ГіГ­ГЄГ¶ГЁГЁ Г¤Г«Гї Г°Г ГЎГ®ГІГ» Г± ГЇГ Г¬ГїГІГјГѕ                                                                                                             # ;
 ; #                                                                                                                                          # ;
 ; #     - checkHandles()                                                                                                                     # ;
 ; #     - refreshGTA()                                                                                                                       # ;
@@ -342,119 +342,119 @@ global iUpdateTick := 2500 ;time in ms, used for getPlayerNameById etc. to refre
 ; #------------------------------------------------------------------------------------------------------------------------------------------# ;
 ; # by MurKotik                                                                                                                              # ;
 ; #------------------------------------------------------------------------------------------------------------------------------------------# ;
-; #     - setCoordinates(x, y, z, Interior)         - Телепорт персонажа                                                                     # ;
-; #     - getIP()                                   - Выдаёт IP Адрес сервера                                                                # ;
-; #     - setIP(IP)                                 - Меняет IP Адрес Сервера       (Не доработан)                                           # ;
-; #     - getHostname()                             - Выдаёт Имя сервера                                                                     # ;
-; #     - setUsername(Username)                     - Установить новый Ник          (Не доработан)                                           # ;
-; #     - colorhud(Цвет)                            - Меняет зелёный цвет в игре на указаный                                                 # ;
-; #	    - setTime(hour)	                            - Устанавливает время на сервере                                                         # ;
-; #	    - getSkinID()   	                        - Выдаёт ID Скина вашего персоажа                                                        # ;
-; #	    - getDialogTitle() 	                        - Выдаёт Заголовок последнего диалога                                                    # ;
-; #	    - getPlayerColor(id)                        - Выдаёт ID Цвета ника игрока по ID                                                      # ;
-; #	    - setPlayerColor(id,color)                  - Устанавливает цвет ника игроку по его ID                                               # ;
-; #	    - colorToStr(color)	                        - Конвертация цвета из десятичной в шестнадцатиричную                                    # ;
-; #	    - getWeaponId() 	                        - Выдаёт ID оружия вашего персонаха                                                      # ;
-; #     - restartGameEx()                           - Рестарт игры (Не отключает от сервера)                                                 # ;
-; #     - setrestart()                              - Установить рестартинг (применить)                                                      # ;
-; #     - disconnectEx()                            - Отключение от сервера                                                                  # ;
-; #     - WriteProcessMemory(title,addresse,wert,size) - Работа с пресетам                                                                   # ;
-; #     - writeFloat(hProcess, dwAddress, wFloat)   - Работа с памятью процесса                                                              # ;
-; #     - writeByte(hProcess, dwAddress, wInt)      - Работа с памятью процесса                                                              # ;
-; #     - FloatToHex(value)                         - Перевот из Float в Hex                                                                 # ;
-; #     - IntToHex(int)                             - Выдаёт интерьер персонажа                                                              # ;
-; #     - addChatMessageEx(Color, wText)            - Фэйк сообщение с покраской timstamp                                                    # ;
-; #     - connect(IP)                               - Подключение к серверу по его IP (Пока что без смены Порта)                             # ;
-; #     - HexToDec(str)                             - Перевод из Hex в Dec (Строковых значений)                                              # ;
-; #     - setWeather(id)                            - Установить погоду                                                                      # ;
+; #     - setCoordinates(x, y, z, Interior)         - Г’ГҐГ«ГҐГЇГ®Г°ГІ ГЇГҐГ°Г±Г®Г­Г Г¦Г                                                                      # ;
+; #     - getIP()                                   - Г‚Г»Г¤Г ВёГІ IP ГЂГ¤Г°ГҐГ± Г±ГҐГ°ГўГҐГ°Г                                                                 # ;
+; #     - setIP(IP)                                 - ГЊГҐГ­ГїГҐГІ IP ГЂГ¤Г°ГҐГ± Г‘ГҐГ°ГўГҐГ°Г        (ГЌГҐ Г¤Г®Г°Г ГЎГ®ГІГ Г­)                                           # ;
+; #     - getHostname()                             - Г‚Г»Г¤Г ВёГІ Г€Г¬Гї Г±ГҐГ°ГўГҐГ°Г                                                                      # ;
+; #     - setUsername(Username)                     - Г“Г±ГІГ Г­Г®ГўГЁГІГј Г­Г®ГўГ»Г© ГЌГЁГЄ          (ГЌГҐ Г¤Г®Г°Г ГЎГ®ГІГ Г­)                                           # ;
+; #     - colorhud(Г–ГўГҐГІ)                            - ГЊГҐГ­ГїГҐГІ Г§ГҐГ«ВёГ­Г»Г© Г¶ГўГҐГІ Гў ГЁГЈГ°ГҐ Г­Г  ГіГЄГ Г§Г Г­Г»Г©                                                 # ;
+; #	    - setTime(hour)	                            - Г“Г±ГІГ Г­Г ГўГ«ГЁГўГ ГҐГІ ГўГ°ГҐГ¬Гї Г­Г  Г±ГҐГ°ГўГҐГ°ГҐ                                                         # ;
+; #	    - getSkinID()   	                        - Г‚Г»Г¤Г ВёГІ ID Г‘ГЄГЁГ­Г  ГўГ ГёГҐГЈГ® ГЇГҐГ°Г±Г®Г Г¦Г                                                         # ;
+; #	    - getDialogTitle() 	                        - Г‚Г»Г¤Г ВёГІ Г‡Г ГЈГ®Г«Г®ГўГ®ГЄ ГЇГ®Г±Г«ГҐГ¤Г­ГҐГЈГ® Г¤ГЁГ Г«Г®ГЈГ                                                     # ;
+; #	    - getPlayerColor(id)                        - Г‚Г»Г¤Г ВёГІ ID Г–ГўГҐГІГ  Г­ГЁГЄГ  ГЁГЈГ°Г®ГЄГ  ГЇГ® ID                                                      # ;
+; #	    - setPlayerColor(id,color)                  - Г“Г±ГІГ Г­Г ГўГ«ГЁГўГ ГҐГІ Г¶ГўГҐГІ Г­ГЁГЄГ  ГЁГЈГ°Г®ГЄГі ГЇГ® ГҐГЈГ® ID                                               # ;
+; #	    - colorToStr(color)	                        - ГЉГ®Г­ГўГҐГ°ГІГ Г¶ГЁГї Г¶ГўГҐГІГ  ГЁГ§ Г¤ГҐГ±ГїГІГЁГ·Г­Г®Г© Гў ГёГҐГ±ГІГ­Г Г¤Г¶Г ГІГЁГ°ГЁГ·Г­ГіГѕ                                    # ;
+; #	    - getWeaponId() 	                        - Г‚Г»Г¤Г ВёГІ ID Г®Г°ГіГ¦ГЁГї ГўГ ГёГҐГЈГ® ГЇГҐГ°Г±Г®Г­Г ГµГ                                                       # ;
+; #     - restartGameEx()                           - ГђГҐГ±ГІГ Г°ГІ ГЁГЈГ°Г» (ГЌГҐ Г®ГІГЄГ«ГѕГ·Г ГҐГІ Г®ГІ Г±ГҐГ°ГўГҐГ°Г )                                                 # ;
+; #     - setrestart()                              - Г“Г±ГІГ Г­Г®ГўГЁГІГј Г°ГҐГ±ГІГ Г°ГІГЁГ­ГЈ (ГЇГ°ГЁГ¬ГҐГ­ГЁГІГј)                                                      # ;
+; #     - disconnectEx()                            - ГЋГІГЄГ«ГѕГ·ГҐГ­ГЁГҐ Г®ГІ Г±ГҐГ°ГўГҐГ°Г                                                                   # ;
+; #     - WriteProcessMemory(title,addresse,wert,size) - ГђГ ГЎГ®ГІГ  Г± ГЇГ°ГҐГ±ГҐГІГ Г¬                                                                   # ;
+; #     - writeFloat(hProcess, dwAddress, wFloat)   - ГђГ ГЎГ®ГІГ  Г± ГЇГ Г¬ГїГІГјГѕ ГЇГ°Г®Г¶ГҐГ±Г±Г                                                               # ;
+; #     - writeByte(hProcess, dwAddress, wInt)      - ГђГ ГЎГ®ГІГ  Г± ГЇГ Г¬ГїГІГјГѕ ГЇГ°Г®Г¶ГҐГ±Г±Г                                                               # ;
+; #     - FloatToHex(value)                         - ГЏГҐГ°ГҐГўГ®ГІ ГЁГ§ Float Гў Hex                                                                 # ;
+; #     - IntToHex(int)                             - Г‚Г»Г¤Г ВёГІ ГЁГ­ГІГҐГ°ГјГҐГ° ГЇГҐГ°Г±Г®Г­Г Г¦Г                                                               # ;
+; #     - addChatMessageEx(Color, wText)            - Г”ГЅГ©ГЄ Г±Г®Г®ГЎГ№ГҐГ­ГЁГҐ Г± ГЇГ®ГЄГ°Г Г±ГЄГ®Г© timstamp                                                    # ;
+; #     - connect(IP)                               - ГЏГ®Г¤ГЄГ«ГѕГ·ГҐГ­ГЁГҐ ГЄ Г±ГҐГ°ГўГҐГ°Гі ГЇГ® ГҐГЈГ® IP (ГЏГ®ГЄГ  Г·ГІГ® ГЎГҐГ§ Г±Г¬ГҐГ­Г» ГЏГ®Г°ГІГ )                             # ;
+; #     - HexToDec(str)                             - ГЏГҐГ°ГҐГўГ®Г¤ ГЁГ§ Hex Гў Dec (Г‘ГІГ°Г®ГЄГ®ГўГ»Гµ Г§Г­Г Г·ГҐГ­ГЁГ©)                                              # ;
+; #     - setWeather(id)                            - Г“Г±ГІГ Г­Г®ГўГЁГІГј ГЇГ®ГЈГ®Г¤Гі                                                                      # ;
 ; #                                                                                                                                          # ;
 ; ############################################################################################################################################ ;
 ; #                                                                                                                                          # ;
 ; #------------------------------------------------------------------------------------------------------------------------------------------# ;                                     
 ; # by McFree                                                                                                                                # ;
 ; #------------------------------------------------------------------------------------------------------------------------------------------# ;
-; #    - getPlayerPosById(dwId)                                         - Вычисляет позицию персонажа                                        # ;
-; #    - HexToDecOne(Hex)                                               - Перевод из Hex в Dec                                               # ;
-; #    - HexToDecTwo(Hex)                                               - Перевод шестнадцатиричного числа в десятичное                      # ;
-; #    - hex2rgb(CR)                                                    - Перевод шестнадцатиричного цвета в rgb строку (255,255,255)        # ;
-; #    - rgb2hex(R, G, B)                                               - Перевод RGB цвета в шестнадцатиричное значение (FFFFFF)            # ;
-; #    - ProcessWriteMemory(Str ,addresse, process, Str, byte)          - Работа с памятью                                                   # ;
-; #    - ProcessReadMemory(address, processIDorName, type, numBytes)    - Работа с памятью                                                   # ;
-; #    - GetCoordsSamp(ByRef ResX, ByRef ResY)                          - Перевод кординат монитора на кординаты SA-MP                       # ;
+; #    - getPlayerPosById(dwId)                                         - Г‚Г»Г·ГЁГ±Г«ГїГҐГІ ГЇГ®Г§ГЁГ¶ГЁГѕ ГЇГҐГ°Г±Г®Г­Г Г¦Г                                         # ;
+; #    - HexToDecOne(Hex)                                               - ГЏГҐГ°ГҐГўГ®Г¤ ГЁГ§ Hex Гў Dec                                               # ;
+; #    - HexToDecTwo(Hex)                                               - ГЏГҐГ°ГҐГўГ®Г¤ ГёГҐГ±ГІГ­Г Г¤Г¶Г ГІГЁГ°ГЁГ·Г­Г®ГЈГ® Г·ГЁГ±Г«Г  Гў Г¤ГҐГ±ГїГІГЁГ·Г­Г®ГҐ                      # ;
+; #    - hex2rgb(CR)                                                    - ГЏГҐГ°ГҐГўГ®Г¤ ГёГҐГ±ГІГ­Г Г¤Г¶Г ГІГЁГ°ГЁГ·Г­Г®ГЈГ® Г¶ГўГҐГІГ  Гў rgb Г±ГІГ°Г®ГЄГі (255,255,255)        # ;
+; #    - rgb2hex(R, G, B)                                               - ГЏГҐГ°ГҐГўГ®Г¤ RGB Г¶ГўГҐГІГ  Гў ГёГҐГ±ГІГ­Г Г¤Г¶Г ГІГЁГ°ГЁГ·Г­Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ (FFFFFF)            # ;
+; #    - ProcessWriteMemory(Str ,addresse, process, Str, byte)          - ГђГ ГЎГ®ГІГ  Г± ГЇГ Г¬ГїГІГјГѕ                                                   # ;
+; #    - ProcessReadMemory(address, processIDorName, type, numBytes)    - ГђГ ГЎГ®ГІГ  Г± ГЇГ Г¬ГїГІГјГѕ                                                   # ;
+; #    - GetCoordsSamp(ByRef ResX, ByRef ResY)                          - ГЏГҐГ°ГҐГўГ®Г¤ ГЄГ®Г°Г¤ГЁГ­Г ГІ Г¬Г®Г­ГЁГІГ®Г°Г  Г­Г  ГЄГ®Г°Г¤ГЁГ­Г ГІГ» SA-MP                       # ;
 ; #                                                                                                                                          # ;
 ; ############################################################################################################################################ ;
 ; #                                                                                                                                          # ;
 ; #------------------------------------------------------------------------------------------------------------------------------------------# ;    
 ; # by Godarck                                                                                                                               # ;
 ; #------------------------------------------------------------------------------------------------------------------------------------------# ;
-; #     - GetInterior()                                          - True or False. Находится ли персонаж в интерьере или нет.  
-; #     - getVehicleSirenState()                                 - True or False. Включена ли сирена в полицейской машине или нет. 
-; #     - CoordsFromRedmarker()                                  - Считывает координаты метки с карты.                
-; #     - NearPlayerInCar(dist)                                  - Определяет игрок в автомобиле рядом                
-; #     - isTargetDriverbyId(dwId)                               - Является ли игрок данного ID водителем т/с         
-; #     - ConvertCarColor(Color)                                 - Конвертация цвета в RGB для getVehicleColor1() и getVehicleColor2() 
+; #     - GetInterior()                                          - True or False. ГЌГ ГµГ®Г¤ГЁГІГ±Гї Г«ГЁ ГЇГҐГ°Г±Г®Г­Г Г¦ Гў ГЁГ­ГІГҐГ°ГјГҐГ°ГҐ ГЁГ«ГЁ Г­ГҐГІ.  
+; #     - getVehicleSirenState()                                 - True or False. Г‚ГЄГ«ГѕГ·ГҐГ­Г  Г«ГЁ Г±ГЁГ°ГҐГ­Г  Гў ГЇГ®Г«ГЁГ¶ГҐГ©Г±ГЄГ®Г© Г¬Г ГёГЁГ­ГҐ ГЁГ«ГЁ Г­ГҐГІ. 
+; #     - CoordsFromRedmarker()                                  - Г‘Г·ГЁГІГ»ГўГ ГҐГІ ГЄГ®Г®Г°Г¤ГЁГ­Г ГІГ» Г¬ГҐГІГЄГЁ Г± ГЄГ Г°ГІГ».                
+; #     - NearPlayerInCar(dist)                                  - ГЋГЇГ°ГҐГ¤ГҐГ«ГїГҐГІ ГЁГЈГ°Г®ГЄ Гў Г ГўГІГ®Г¬Г®ГЎГЁГ«ГҐ Г°ГїГ¤Г®Г¬                
+; #     - isTargetDriverbyId(dwId)                               - ГџГўГ«ГїГҐГІГ±Гї Г«ГЁ ГЁГЈГ°Г®ГЄ Г¤Г Г­Г­Г®ГЈГ® ID ГўГ®Г¤ГЁГІГҐГ«ГҐГ¬ ГІ/Г±         
+; #     - ConvertCarColor(Color)                                 - ГЉГ®Г­ГўГҐГ°ГІГ Г¶ГЁГї Г¶ГўГҐГІГ  Гў RGB Г¤Г«Гї getVehicleColor1() ГЁ getVehicleColor2() 
 ; #                                                                                                                                          # ;
 ; #------------------------------------------------------------------------------------------------------------------------------------------# ;
 ; # By Unknown                                                                                                                               # ;
 ; #------------------------------------------------------------------------------------------------------------------------------------------# ;
-; #     - disableCheckpoint()                                - Отключает маркер на карте. Disabled REd Marker on map      
-; #     - setCheckpoint(xpos,ypos,zpos,Radius)               - Устанавливает маркер на карте. Рекомендуемое значение радиуса   
+; #     - disableCheckpoint()                                - ГЋГІГЄГ«ГѕГ·Г ГҐГІ Г¬Г Г°ГЄГҐГ° Г­Г  ГЄГ Г°ГІГҐ. Disabled REd Marker on map      
+; #     - setCheckpoint(xpos,ypos,zpos,Radius)               - Г“Г±ГІГ Г­Г ГўГ«ГЁГўГ ГҐГІ Г¬Г Г°ГЄГҐГ° Г­Г  ГЄГ Г°ГІГҐ. ГђГҐГЄГ®Г¬ГҐГ­Г¤ГіГҐГ¬Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ Г°Г Г¤ГЁГіГ±Г    
 ; #                                                                                                                                          # ;
 ; #------------------------------------------------------------------------------------------------------------------------------------------# ;
 ; # By MrGPro                                                                                                                                # ;
 ; #------------------------------------------------------------------------------------------------------------------------------------------# ;
-; #     - getServerHour()                                    - Получаем игровых часы минут (Только серверах где это отображается   
-; #     - getServerMinute()                                  - Получаем игровых минуты минут (Только серверах где это отображается 
-; #     - getVehicleIdServer()                               - id транспорта на сервере в который вы сели         
+; #     - getServerHour()                                    - ГЏГ®Г«ГіГ·Г ГҐГ¬ ГЁГЈГ°Г®ГўГ»Гµ Г·Г Г±Г» Г¬ГЁГ­ГіГІ (Г’Г®Г«ГјГЄГ® Г±ГҐГ°ГўГҐГ°Г Гµ ГЈГ¤ГҐ ГЅГІГ® Г®ГІГ®ГЎГ°Г Г¦Г ГҐГІГ±Гї   
+; #     - getServerMinute()                                  - ГЏГ®Г«ГіГ·Г ГҐГ¬ ГЁГЈГ°Г®ГўГ»Гµ Г¬ГЁГ­ГіГІГ» Г¬ГЁГ­ГіГІ (Г’Г®Г«ГјГЄГ® Г±ГҐГ°ГўГҐГ°Г Гµ ГЈГ¤ГҐ ГЅГІГ® Г®ГІГ®ГЎГ°Г Г¦Г ГҐГІГ±Гї 
+; #     - getVehicleIdServer()                               - id ГІГ°Г Г­Г±ГЇГ®Г°ГІГ  Г­Г  Г±ГҐГ°ГўГҐГ°ГҐ Гў ГЄГ®ГІГ®Г°Г»Г© ГўГ» Г±ГҐГ«ГЁ         
 ; #                                                                                                                                          # ;
 ; #------------------------------------------------------------------------------------------------------------------------------------------# ;
-; # By Слюнявчик                                                                                                                             # ;
+; # By Г‘Г«ГѕГ­ГїГўГ·ГЁГЄ                                                                                                                             # ;
 ; #------------------------------------------------------------------------------------------------------------------------------------------# ;
-; #     - IsInAFK()                                         - Проверка на АФК (1 - в АФК 0 - не АФК -1 - Игра закрыта)
+; #     - IsInAFK()                                         - ГЏГ°Г®ГўГҐГ°ГЄГ  Г­Г  ГЂГ”ГЉ (1 - Гў ГЂГ”ГЉ 0 - Г­ГҐ ГЂГ”ГЉ -1 - Г€ГЈГ°Г  Г§Г ГЄГ°Г»ГІГ )
 ; #                                                                                                                                          # ;
 ; #------------------------------------------------------------------------------------------------------------------------------------------# ;
 ; # By Dworkin                                                                                                                               # ;
 ; #------------------------------------------------------------------------------------------------------------------------------------------# ;
-; #     - getCameraCoordinates()                            - Получение координаты вашей камеры                                              # ;
+; #     - getCameraCoordinates()                            - ГЏГ®Г«ГіГ·ГҐГ­ГЁГҐ ГЄГ®Г®Г°Г¤ГЁГ­Г ГІГ» ГўГ ГёГҐГ© ГЄГ Г¬ГҐГ°Г»                                              # ;
 ; #                                                                                                                                          # ;
 ; #------------------------------------------------------------------------------------------------------------------------------------------# ;
 ; # By Phoenixxx_Czar                                                                                                                        # ;
 ; #------------------------------------------------------------------------------------------------------------------------------------------# ;
 ; #     - isPlayerInStreamById(player_id [, dist])                                                                                           # ;
-; #             Функция для определения находиться ли игрок (игроки) в зоне стрима                                                           # ;
-; #             player_id - ид игрока или массив идов игроков                                                                                # ;
-; #             radius - радиус поиска игроков относительно основного персонажа                                                              # ;
-; #     - getIdsInAnyVehicle()                              - Выдает кто с вами в автомобиле                                                 # ;
-; #     - setPlayerName(playerid, newnick)                  - Визуальная смена Ник Нэйма любого игрока                                       # ;
-; #     - getDialogLineNumber()                             - Определяет выбраную строку в диалоге                                           # ;
-; #     - getsexbyskin(skin)                                - Определяет пол по иду скина (0 - Ошибка, 1 - Мужской, 2 - Женский)             # ;
-; #     - save(var)                                         - Сохраняет по датам в                                                           # ;
-; #                                                           "Мои Документы -> GTA San Andreas User Files -> SAMP -> ChatLogs"              # ;
-; #     - copy(text)                                        - Копирует в буфер                                                               # ;
-; #     - GetText(array [, min, max, button])               - Из массив в текст с переносами с ограничением                                  # ;
-; #     - Get(url)                                          - Get запрос на указанный url, выдает текст с сайта                              # ;
-; #     - Post(url, send)                                   - Post запрос на сайт (0 - Все хорошо \ 1 - Ошибка)                              # ;
+; #             Г”ГіГ­ГЄГ¶ГЁГї Г¤Г«Гї Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГї Г­Г ГµГ®Г¤ГЁГІГјГ±Гї Г«ГЁ ГЁГЈГ°Г®ГЄ (ГЁГЈГ°Г®ГЄГЁ) Гў Г§Г®Г­ГҐ Г±ГІГ°ГЁГ¬Г                                                            # ;
+; #             player_id - ГЁГ¤ ГЁГЈГ°Г®ГЄГ  ГЁГ«ГЁ Г¬Г Г±Г±ГЁГў ГЁГ¤Г®Гў ГЁГЈГ°Г®ГЄГ®Гў                                                                                # ;
+; #             radius - Г°Г Г¤ГЁГіГ± ГЇГ®ГЁГ±ГЄГ  ГЁГЈГ°Г®ГЄГ®Гў Г®ГІГ­Г®Г±ГЁГІГҐГ«ГјГ­Г® Г®Г±Г­Г®ГўГ­Г®ГЈГ® ГЇГҐГ°Г±Г®Г­Г Г¦Г                                                               # ;
+; #     - getIdsInAnyVehicle()                              - Г‚Г»Г¤Г ГҐГІ ГЄГІГ® Г± ГўГ Г¬ГЁ Гў Г ГўГІГ®Г¬Г®ГЎГЁГ«ГҐ                                                 # ;
+; #     - setPlayerName(playerid, newnick)                  - Г‚ГЁГ§ГіГ Г«ГјГ­Г Гї Г±Г¬ГҐГ­Г  ГЌГЁГЄ ГЌГЅГ©Г¬Г  Г«ГѕГЎГ®ГЈГ® ГЁГЈГ°Г®ГЄГ                                        # ;
+; #     - getDialogLineNumber()                             - ГЋГЇГ°ГҐГ¤ГҐГ«ГїГҐГІ ГўГ»ГЎГ°Г Г­ГіГѕ Г±ГІГ°Г®ГЄГі Гў Г¤ГЁГ Г«Г®ГЈГҐ                                           # ;
+; #     - getsexbyskin(skin)                                - ГЋГЇГ°ГҐГ¤ГҐГ«ГїГҐГІ ГЇГ®Г« ГЇГ® ГЁГ¤Гі Г±ГЄГЁГ­Г  (0 - ГЋГёГЁГЎГЄГ , 1 - ГЊГіГ¦Г±ГЄГ®Г©, 2 - Г†ГҐГ­Г±ГЄГЁГ©)             # ;
+; #     - save(var)                                         - Г‘Г®ГµГ°Г Г­ГїГҐГІ ГЇГ® Г¤Г ГІГ Г¬ Гў                                                           # ;
+; #                                                           "ГЊГ®ГЁ Г„Г®ГЄГіГ¬ГҐГ­ГІГ» -> GTA San Andreas User Files -> SAMP -> ChatLogs"              # ;
+; #     - copy(text)                                        - ГЉГ®ГЇГЁГ°ГіГҐГІ Гў ГЎГіГґГҐГ°                                                               # ;
+; #     - GetText(array [, min, max, button])               - Г€Г§ Г¬Г Г±Г±ГЁГў Гў ГІГҐГЄГ±ГІ Г± ГЇГҐГ°ГҐГ­Г®Г±Г Г¬ГЁ Г± Г®ГЈГ°Г Г­ГЁГ·ГҐГ­ГЁГҐГ¬                                  # ;
+; #     - Get(url)                                          - Get Г§Г ГЇГ°Г®Г± Г­Г  ГіГЄГ Г§Г Г­Г­Г»Г© url, ГўГ»Г¤Г ГҐГІ ГІГҐГЄГ±ГІ Г± Г±Г Г©ГІГ                               # ;
+; #     - Post(url, send)                                   - Post Г§Г ГЇГ°Г®Г± Г­Г  Г±Г Г©ГІ (0 - Г‚Г±ГҐ ГµГ®Г°Г®ГёГ® \ 1 - ГЋГёГЁГЎГЄГ )                              # ;
 ; #                                                                                                                                          # ;
 ; #------------------------------------------------------------------------------------------------------------------------------------------# ;
 ; # By Revalto                                                                                                                               # ;
 ; #------------------------------------------------------------------------------------------------------------------------------------------# ;
-; #     - setCoordinatesCar(x, y, z)         - Телепорт персонажа с Транспортом                                                              # ;
+; #     - setCoordinatesCar(x, y, z)         - Г’ГҐГ«ГҐГЇГ®Г°ГІ ГЇГҐГ°Г±Г®Г­Г Г¦Г  Г± Г’Г°Г Г­Г±ГЇГ®Г°ГІГ®Г¬                                                              # ;
 ; #                                                                                                                                          # ;
 ; #------------------------------------------------------------------------------------------------------------------------------------------# ;
-; # ЧИТЫ                                                                                                                                     # ;
+; # Г—Г€Г’Г›                                                                                                                                     # ;
 ; #------------------------------------------------------------------------------------------------------------------------------------------# ;
-; #     - toggleUnlimitedAmmo()                             - бесконечные патроны 
-; #     - toggleNoReload()                                  - стрельба без перезарядки 
-; #     - toggleNoRecoil()                                  - стрельба без отдачи 
-; #     - toggleAntiBikeFall()                              - не падать с байка 
-; #     - toggleAntiCarEject()                              - вас не могут выкинуть из машины 
-; #     - toggleNoAnimations()                              - анимации не отображаются 
-; #     - toggleObjectDrawMode()                            - курсор для отображения информации о streamer объектах на сервере 
-; #     - toggleMotionBlur()                                - размытость при движении на большой скорости как в сингле 
-; #     - writeBytes(hProcess, dwAddress, bytes)            - записать несколько байтов по адресу (служебная функция)
-; #     - setFireImmunity(state)                            - Имунитет от огня (0-выкл, 1-вкл)
-; #     - setInfiniteRun(state)                             - Беск бег (0-выкл, 1-вкл)
-; #     - isMarkerSetup()                                   - Стоит ли маркер на крате (-1 ошибка, 0 нет, 1 да)
+; #     - toggleUnlimitedAmmo()                             - ГЎГҐГ±ГЄГ®Г­ГҐГ·Г­Г»ГҐ ГЇГ ГІГ°Г®Г­Г» 
+; #     - toggleNoReload()                                  - Г±ГІГ°ГҐГ«ГјГЎГ  ГЎГҐГ§ ГЇГҐГ°ГҐГ§Г Г°ГїГ¤ГЄГЁ 
+; #     - toggleNoRecoil()                                  - Г±ГІГ°ГҐГ«ГјГЎГ  ГЎГҐГ§ Г®ГІГ¤Г Г·ГЁ 
+; #     - toggleAntiBikeFall()                              - Г­ГҐ ГЇГ Г¤Г ГІГј Г± ГЎГ Г©ГЄГ  
+; #     - toggleAntiCarEject()                              - ГўГ Г± Г­ГҐ Г¬Г®ГЈГіГІ ГўГ»ГЄГЁГ­ГіГІГј ГЁГ§ Г¬Г ГёГЁГ­Г» 
+; #     - toggleNoAnimations()                              - Г Г­ГЁГ¬Г Г¶ГЁГЁ Г­ГҐ Г®ГІГ®ГЎГ°Г Г¦Г ГѕГІГ±Гї 
+; #     - toggleObjectDrawMode()                            - ГЄГіГ°Г±Г®Г° Г¤Г«Гї Г®ГІГ®ГЎГ°Г Г¦ГҐГ­ГЁГї ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГЁ Г® streamer Г®ГЎГєГҐГЄГІГ Гµ Г­Г  Г±ГҐГ°ГўГҐГ°ГҐ 
+; #     - toggleMotionBlur()                                - Г°Г Г§Г¬Г»ГІГ®Г±ГІГј ГЇГ°ГЁ Г¤ГўГЁГ¦ГҐГ­ГЁГЁ Г­Г  ГЎГ®Г«ГјГёГ®Г© Г±ГЄГ®Г°Г®Г±ГІГЁ ГЄГ ГЄ Гў Г±ГЁГ­ГЈГ«ГҐ 
+; #     - writeBytes(hProcess, dwAddress, bytes)            - Г§Г ГЇГЁГ±Г ГІГј Г­ГҐГ±ГЄГ®Г«ГјГЄГ® ГЎГ Г©ГІГ®Гў ГЇГ® Г Г¤Г°ГҐГ±Гі (Г±Г«ГіГ¦ГҐГЎГ­Г Гї ГґГіГ­ГЄГ¶ГЁГї)
+; #     - setFireImmunity(state)                            - Г€Г¬ГіГ­ГЁГІГҐГІ Г®ГІ Г®ГЈГ­Гї (0-ГўГ»ГЄГ«, 1-ГўГЄГ«)
+; #     - setInfiniteRun(state)                             - ГЃГҐГ±ГЄ ГЎГҐГЈ (0-ГўГ»ГЄГ«, 1-ГўГЄГ«)
+; #     - isMarkerSetup()                                   - Г‘ГІГ®ГЁГІ Г«ГЁ Г¬Г Г°ГЄГҐГ° Г­Г  ГЄГ°Г ГІГҐ (-1 Г®ГёГЁГЎГЄГ , 0 Г­ГҐГІ, 1 Г¤Г )
 ; #                   
 ; ############################################################################################################################################ ;
 
@@ -494,9 +494,9 @@ GetText(name, min := 1, max := 45, button := 0)
     if  (button)
     {
         if (min > 45)
-            text .= " `nНазад"
+            text .= " `nГЌГ Г§Г Г¤"
         if (temp_A_Index > max)
-            text .= "`nВперед"
+            text .= "`nГ‚ГЇГҐГ°ГҐГ¤"
     }
     text := Trim(text, "`n")
 	return Array(text, min, max, temp_A_Index)
@@ -619,52 +619,52 @@ Copy(Text, LocaleID=0x419)
 { 
     CF_TEXT:=1, CF_LOCALE:=16, GMEM_MOVEABLE:=2 
     TextLen :=StrLen(Text) 
-    HmemText :=DllCall("GlobalAlloc", "UInt", GMEM_MOVEABLE, "UInt", TextLen+1) ; Запрос перемещаемой 
-    HmemLocale:=DllCall("GlobalAlloc", "UInt", GMEM_MOVEABLE, "UInt", 4) ; памяти, возвращаются хэндлы. 
+    HmemText :=DllCall("GlobalAlloc", "UInt", GMEM_MOVEABLE, "UInt", TextLen+1) ; Г‡Г ГЇГ°Г®Г± ГЇГҐГ°ГҐГ¬ГҐГ№Г ГҐГ¬Г®Г© 
+    HmemLocale:=DllCall("GlobalAlloc", "UInt", GMEM_MOVEABLE, "UInt", 4) ; ГЇГ Г¬ГїГІГЁ, ГўГ®Г§ГўГ°Г Г№Г ГѕГІГ±Гї ГµГЅГ­Г¤Г«Г». 
     If(!HmemText || !HmemLocale) 
         Return 
-    PtrText :=DllCall("GlobalLock", "UInt", HmemText) ; Фиксация памяти, хэндлы конвертируются 
-    PtrLocale :=DllCall("GlobalLock", "UInt", HmemLocale) ; в указатели (адреса). 
-    DllCall("msvcrt\memcpy", "UInt", PtrText, "Str", Text, "UInt", TextLen+1, "Cdecl") ; Копирование текста. 
-    NumPut(LocaleID, PtrLocale+0) ; Запись идентификатора локали. 
-    DllCall("GlobalUnlock", "UInt", HmemText) ; Расфиксация памяти. 
+    PtrText :=DllCall("GlobalLock", "UInt", HmemText) ; Г”ГЁГЄГ±Г Г¶ГЁГї ГЇГ Г¬ГїГІГЁ, ГµГЅГ­Г¤Г«Г» ГЄГ®Г­ГўГҐГ°ГІГЁГ°ГіГѕГІГ±Гї 
+    PtrLocale :=DllCall("GlobalLock", "UInt", HmemLocale) ; Гў ГіГЄГ Г§Г ГІГҐГ«ГЁ (Г Г¤Г°ГҐГ±Г ). 
+    DllCall("msvcrt\memcpy", "UInt", PtrText, "Str", Text, "UInt", TextLen+1, "Cdecl") ; ГЉГ®ГЇГЁГ°Г®ГўГ Г­ГЁГҐ ГІГҐГЄГ±ГІГ . 
+    NumPut(LocaleID, PtrLocale+0) ; Г‡Г ГЇГЁГ±Гј ГЁГ¤ГҐГ­ГІГЁГґГЁГЄГ ГІГ®Г°Г  Г«Г®ГЄГ Г«ГЁ. 
+    DllCall("GlobalUnlock", "UInt", HmemText) ; ГђГ Г±ГґГЁГЄГ±Г Г¶ГЁГї ГЇГ Г¬ГїГІГЁ. 
     DllCall("GlobalUnlock", "UInt", HmemLocale) 
-    If not DllCall("OpenClipboard", "UInt", 0) ; Открытие буфера обмена. 
+    If not DllCall("OpenClipboard", "UInt", 0) ; ГЋГІГЄГ°Г»ГІГЁГҐ ГЎГіГґГҐГ°Г  Г®ГЎГ¬ГҐГ­Г . 
     { 
-        DllCall("GlobalFree", "UInt", HmemText) ; Освобождение памяти, 
-        DllCall("GlobalFree", "UInt", HmemLocale) ; если открыть не удалось. 
+        DllCall("GlobalFree", "UInt", HmemText) ; ГЋГ±ГўГ®ГЎГ®Г¦Г¤ГҐГ­ГЁГҐ ГЇГ Г¬ГїГІГЁ, 
+        DllCall("GlobalFree", "UInt", HmemLocale) ; ГҐГ±Г«ГЁ Г®ГІГЄГ°Г»ГІГј Г­ГҐ ГіГ¤Г Г«Г®Г±Гј. 
         Return 
     } 
-    DllCall("EmptyClipboard") ; Очистка. 
-    DllCall("SetClipboardData", "UInt", CF_TEXT, "UInt", HmemText) ; Помещение данных. 
+    DllCall("EmptyClipboard") ; ГЋГ·ГЁГ±ГІГЄГ . 
+    DllCall("SetClipboardData", "UInt", CF_TEXT, "UInt", HmemText) ; ГЏГ®Г¬ГҐГ№ГҐГ­ГЁГҐ Г¤Г Г­Г­Г»Гµ. 
     DllCall("SetClipboardData", "UInt", CF_LOCALE, "UInt", HmemLocale) 
-    DllCall("CloseClipboard") ; Закрытие. 
+    DllCall("CloseClipboard") ; Г‡Г ГЄГ°Г»ГІГЁГҐ. 
 } 
 
 
 ClipGetText(CodePage=1251) 
 {
     CF_TEXT:=1, CF_UNICODETEXT:=13, Format:=0 
-    If not DllCall("OpenClipboard", "UInt", 0) ; Открытие буфера обмена. 
+    If not DllCall("OpenClipboard", "UInt", 0) ; ГЋГІГЄГ°Г»ГІГЁГҐ ГЎГіГґГҐГ°Г  Г®ГЎГ¬ГҐГ­Г . 
         Return 
     Loop 
     { 
-        Format:=DllCall("EnumClipboardFormats", "UInt", Format) ; Перебор форматов. 
+        Format:=DllCall("EnumClipboardFormats", "UInt", Format) ; ГЏГҐГ°ГҐГЎГ®Г° ГґГ®Г°Г¬Г ГІГ®Гў. 
         If(Format=0 || Format=CF_TEXT || Format=CF_UNICODETEXT) 
             Break 
     } 
-    If(Format=0) { ; Текста не найдено. 
+    If(Format=0) { ; Г’ГҐГЄГ±ГІГ  Г­ГҐ Г­Г Г©Г¤ГҐГ­Г®. 
         DllCall("CloseClipboard") 
         Return 
     } 
     If(Format=CF_TEXT) 
     { 
-        HmemText:=DllCall("GetClipboardData", "UInt", CF_TEXT) ; Получение хэндла данных. 
-        PtrText :=DllCall("GlobalLock", "UInt", HmemText) ; Конвертация хэндла в указатель. 
-        TextLen :=DllCall("msvcrt\strlen", "UInt", PtrText, "Cdecl") ; Измерение длины найденного текста. 
-        VarSetCapacity(Text, TextLen+1) ; Переменная под этот текст. 
-        DllCall("msvcrt\memcpy", "Str", Text, "UInt", PtrText, "UInt", TextLen+1, "Cdecl") ; Текст в переменную. 
-        DllCall("GlobalUnlock", "UInt", HmemText) ; Расфиксация памяти. 
+        HmemText:=DllCall("GetClipboardData", "UInt", CF_TEXT) ; ГЏГ®Г«ГіГ·ГҐГ­ГЁГҐ ГµГЅГ­Г¤Г«Г  Г¤Г Г­Г­Г»Гµ. 
+        PtrText :=DllCall("GlobalLock", "UInt", HmemText) ; ГЉГ®Г­ГўГҐГ°ГІГ Г¶ГЁГї ГµГЅГ­Г¤Г«Г  Гў ГіГЄГ Г§Г ГІГҐГ«Гј. 
+        TextLen :=DllCall("msvcrt\strlen", "UInt", PtrText, "Cdecl") ; Г€Г§Г¬ГҐГ°ГҐГ­ГЁГҐ Г¤Г«ГЁГ­Г» Г­Г Г©Г¤ГҐГ­Г­Г®ГЈГ® ГІГҐГЄГ±ГІГ . 
+        VarSetCapacity(Text, TextLen+1) ; ГЏГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЇГ®Г¤ ГЅГІГ®ГІ ГІГҐГЄГ±ГІ. 
+        DllCall("msvcrt\memcpy", "Str", Text, "UInt", PtrText, "UInt", TextLen+1, "Cdecl") ; Г’ГҐГЄГ±ГІ Гў ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ. 
+        DllCall("GlobalUnlock", "UInt", HmemText) ; ГђГ Г±ГґГЁГЄГ±Г Г¶ГЁГї ГЇГ Г¬ГїГІГЁ. 
     } 
     Else If(Format=CF_UNICODETEXT) 
     {
@@ -674,10 +674,10 @@ ClipGetText(CodePage=1251)
         VarSetCapacity(Text, TextLen+1) 
         DllCall("WideCharToMultiByte", "UInt", CodePage, "UInt", 0, "UInt", PtrTextW 
         , "Int", TextLen+1, "Str", Text, "Int", TextLen+1 
-        , "UInt", 0, "Int", 0) ; Конвертация из Unicode в ANSI. 
+        , "UInt", 0, "Int", 0) ; ГЉГ®Г­ГўГҐГ°ГІГ Г¶ГЁГї ГЁГ§ Unicode Гў ANSI. 
         DllCall("GlobalUnlock", "UInt", HmemTextW) 
     } 
-    DllCall("CloseClipboard") ; Закрытие. 
+    DllCall("CloseClipboard") ; Г‡Г ГЄГ°Г»ГІГЁГҐ. 
     Return Text 
 }
 
@@ -1133,7 +1133,7 @@ getVehicleIdServer(address=0x13C298, datatype="int", length=4, offset=0)
                 If (!DllCall("lstrcmpi", "Str", "samp.dll", "UInt", &me32 + 32)) {
                     DllCall("CloseHandle", "UInt", snapMod)
                     key:= NumGet(&me32 + 20)
-                    WinGet, PID_SAMP, PID, Criminal Russia Multiplayer Ревизия G
+                    WinGet, PID_SAMP, PID, Criminal Russia Multiplayer ГђГҐГўГЁГ§ГЁГї G
                     hwnd_samp := DllCall("OpenProcess","Uint",0x1F0FFF,"int",0,"int", PID_SAMP)
                     VarSetCapacity(readvalue,length, 0)
                     DllCall("ReadProcessMemory","Uint",hwnd_samp,"Uint",key+address+offset,"Str",readvalue,"Uint",length,"Uint *",0)
@@ -1149,7 +1149,7 @@ getVehicleIdServer(address=0x13C298, datatype="int", length=4, offset=0)
     else
         Return 0
 }
-; Визуально меняет ник любого игрока
+; Г‚ГЁГ§ГіГ Г«ГјГ­Г® Г¬ГҐГ­ГїГҐГІ Г­ГЁГЄ Г«ГѕГЎГ®ГЈГ® ГЁГЈГ°Г®ГЄГ 
 setPlayerName(playerid, newnick) {
     if(!checkHandles() || !strlen(newnick))
         return 0
@@ -1215,16 +1215,16 @@ setPlayerName(playerid, newnick) {
 }
 initZonesAndCities() {
     
-    AddCity("Лас-Вентурас", 685.0, 476.093, -500.0, 3000.0, 3000.0, 500.0)
-    AddCity("Сан-Фиерро", -3000.0, -742.306, -500.0, -1270.53, 1530.24, 500.0)
-    AddCity("Сан-Фиерро", -1270.53, -402.481, -500.0, -1038.45, 832.495, 500.0)
-    AddCity("Сан-Фиерро", -1038.45, -145.539, -500.0, -897.546, 376.632, 500.0)
-    AddCity("Лос-Сантос", 480.0, -3000.0, -500.0, 3000.0, -850.0, 500.0)
-    AddCity("Лос-Сантос", 80.0, -2101.61, -500.0, 1075.0, -1239.61, 500.0)
-    AddCity("Тьерра-Робада", -1213.91, 596.349, -242.99, -480.539, 1659.68, 900.0)
-    AddCity("Ред-Коунти", -1213.91, -768.027, -242.99, 2997.06, 596.349, 900.0)
-    AddCity("Флинт-Коунти", -1213.91, -2892.97, -242.99, 44.6147, -768.027, 900.0)
-    AddCity("Уэтстоун", -2997.47, -2892.97, -242.99, -1213.91, -1115.58, 900.0)
+    AddCity("Г‹Г Г±-Г‚ГҐГ­ГІГіГ°Г Г±", 685.0, 476.093, -500.0, 3000.0, 3000.0, 500.0)
+    AddCity("Г‘Г Г­-Г”ГЁГҐГ°Г°Г®", -3000.0, -742.306, -500.0, -1270.53, 1530.24, 500.0)
+    AddCity("Г‘Г Г­-Г”ГЁГҐГ°Г°Г®", -1270.53, -402.481, -500.0, -1038.45, 832.495, 500.0)
+    AddCity("Г‘Г Г­-Г”ГЁГҐГ°Г°Г®", -1038.45, -145.539, -500.0, -897.546, 376.632, 500.0)
+    AddCity("Г‹Г®Г±-Г‘Г Г­ГІГ®Г±", 480.0, -3000.0, -500.0, 3000.0, -850.0, 500.0)
+    AddCity("Г‹Г®Г±-Г‘Г Г­ГІГ®Г±", 80.0, -2101.61, -500.0, 1075.0, -1239.61, 500.0)
+    AddCity("Г’ГјГҐГ°Г°Г -ГђГ®ГЎГ Г¤Г ", -1213.91, 596.349, -242.99, -480.539, 1659.68, 900.0)
+    AddCity("ГђГҐГ¤-ГЉГ®ГіГ­ГІГЁ", -1213.91, -768.027, -242.99, 2997.06, 596.349, 900.0)
+    AddCity("Г”Г«ГЁГ­ГІ-ГЉГ®ГіГ­ГІГЁ", -1213.91, -2892.97, -242.99, 44.6147, -768.027, 900.0)
+    AddCity("Г“ГЅГІГ±ГІГ®ГіГ­", -2997.47, -2892.97, -242.99, -1213.91, -1115.58, 900.0)
     
     AddZone("Avispa Country Club", -2667.810, -302.135, -28.831, -2646.400, -262.320, 71.169)
     AddZone("Easter Bay Airport", -1315.420, -405.388, 15.406, -1264.400, -209.543, 25.406)
@@ -1760,7 +1760,7 @@ colorhud(colorhud)
     VarSetCapacity(value, 32, 0) 
     NumPut(colorhud,value,0,Uint) 
     address=0xBAB230
-    WinGet ,idvar,PID,Criminal Russia Multiplayer Ревизия G
+    WinGet ,idvar,PID,Criminal Russia Multiplayer ГђГҐГўГЁГ§ГЁГї G
     processhandle:=DllCall("OpenProcess","Uint",0x38,"int",0,"int",idvar) 
     Bvar:=DllCall("WriteProcessMemory","Uint",processhandle,"Uint",address+0,"Uint",&value,"Uint","4","Uint",0) 
 }
@@ -1783,7 +1783,7 @@ getIP() {
     return ipAddr
 }
 
-; Смена Ip Сервера
+; Г‘Г¬ГҐГ­Г  Ip Г‘ГҐГ°ГўГҐГ°Г 
 setIP(IP) {
     if(!checkHandles())
         return False
@@ -2249,7 +2249,7 @@ restartGameEx() {
 	return true
 }
 ; ##### SAMP-Funktionen #####
-; Функция для определения всех идов в автомобиле
+; Г”ГіГ­ГЄГ¶ГЁГї Г¤Г«Гї Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГї ГўГ±ГҐГµ ГЁГ¤Г®Гў Гў Г ГўГІГ®Г¬Г®ГЎГЁГ«ГҐ
 getIdsInAnyVehicle()
 {
 	if (isPlayerInAnyVehicle())
@@ -2275,9 +2275,9 @@ getIdsInAnyVehicle()
 	return -1
 }
 
-; Функция для определения находиться ли игрок (игроки) в зоне стрима
-; player_id - ид игрока или массив идов игроков
-; radius - радиус поиска игроков относительно основного персонажа
+; Г”ГіГ­ГЄГ¶ГЁГї Г¤Г«Гї Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГї Г­Г ГµГ®Г¤ГЁГІГјГ±Гї Г«ГЁ ГЁГЈГ°Г®ГЄ (ГЁГЈГ°Г®ГЄГЁ) Гў Г§Г®Г­ГҐ Г±ГІГ°ГЁГ¬Г 
+; player_id - ГЁГ¤ ГЁГЈГ°Г®ГЄГ  ГЁГ«ГЁ Г¬Г Г±Г±ГЁГў ГЁГ¤Г®Гў ГЁГЈГ°Г®ГЄГ®Гў
+; radius - Г°Г Г¤ГЁГіГ± ГЇГ®ГЁГ±ГЄГ  ГЁГЈГ°Г®ГЄГ®Гў Г®ГІГ­Г®Г±ГЁГІГҐГ«ГјГ­Г® Г®Г±Г­Г®ГўГ­Г®ГЈГ® ГЇГҐГ°Г±Г®Г­Г Г¦Г 
 isPlayerInStreamById(player_id, radius := 150)
 {
 	
@@ -2289,7 +2289,7 @@ isPlayerInStreamById(player_id, radius := 150)
 	if (!p)
 		return 0
 
-	For i, o in p ; берет игроков из стрима в переменную NAME
+	For i, o in p ; ГЎГҐГ°ГҐГІ ГЁГЈГ°Г®ГЄГ®Гў ГЁГ§ Г±ГІГ°ГЁГ¬Г  Гў ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ NAME
 	{
 		if (Floor(getDist(getCoordinates(), o.POS)) <= radius)
 		{
@@ -2297,10 +2297,10 @@ isPlayerInStreamById(player_id, radius := 150)
 		}
 	}
 	
-	if (IsObject(player_id)) ; Если получен массив
+	if (IsObject(player_id)) ; Г…Г±Г«ГЁ ГЇГ®Г«ГіГ·ГҐГ­ Г¬Г Г±Г±ГЁГў
 	{
 		
-		for k, v in player_id ; Проверяет находиться ли ид из массива в зоне стрима
+		for k, v in player_id ; ГЏГ°Г®ГўГҐГ°ГїГҐГІ Г­Г ГµГ®Г¤ГЁГІГјГ±Гї Г«ГЁ ГЁГ¤ ГЁГ§ Г¬Г Г±Г±ГЁГўГ  Гў Г§Г®Г­ГҐ Г±ГІГ°ГЁГ¬Г 
 		{
 			i := 0
 			Loop, Parse, % NAME, % ",", % " ,.`n`r"
@@ -2317,7 +2317,7 @@ isPlayerInStreamById(player_id, radius := 150)
 		
 		return check
 	}
-	else if (!IsObject(player_id)) ; если передан ид
+	else if (!IsObject(player_id)) ; ГҐГ±Г«ГЁ ГЇГҐГ°ГҐГ¤Г Г­ ГЁГ¤
 	{
 		
 		if (!getPlayerNameById(player_id))
@@ -2414,8 +2414,8 @@ SendChat(wText) {
     ErrorLevel := ERROR_OK
     return true
 }
-;=================================================[Работа с памятью]===================================================================================
-; Источник - http://dumpz.org/2345353/
+;=================================================[ГђГ ГЎГ®ГІГ  Г± ГЇГ Г¬ГїГІГјГѕ]===================================================================================
+; Г€Г±ГІГ®Г·Г­ГЁГЄ - http://dumpz.org/2345353/
 ProcessReadMemory(address, processIDorName, type := "Int", numBytes := 4) {
     VarSetCapacity(buf, numBytes, 0)
     Process Exist, %processIDorName%
@@ -2450,7 +2450,7 @@ ProcessWriteMemory(data, address, processIDorName, type := "Int", numBytes := 4)
         return
     return result
 }
-;==================================================[Работа с памятью]==================================================================================
+;==================================================[ГђГ ГЎГ®ГІГ  Г± ГЇГ Г¬ГїГІГјГѕ]==================================================================================
 addChatMessage(wText) {
     wText := "" wText
 
@@ -2854,7 +2854,7 @@ IsInAFK() {
     res := ProcessReadMemory(0xBA6748 + 0x5C, "grand_theft_auto_san_andreas.dll")
     if (res==-1)
         return -1
-    WinGet, win, MinMax, Criminal Russia Multiplayer Ревизия G
+    WinGet, win, MinMax, Criminal Russia Multiplayer ГђГҐГўГЁГ§ГЁГї G
     if ((res=0) and (win=-1)) or res=1
         return 1
     return 0
@@ -3544,7 +3544,7 @@ getTargetVehicleSpeedByPed(dwPED) {
     fSpeedZ := readMem(hGTA, dwAddr + ADDR_VEHICLE_Z, 4, "float")
     
     fVehicleSpeed :=  sqrt((fSpeedX * fSpeedX) + (fSpeedY * fSpeedY) + (fSpeedZ * fSpeedZ))
-    fVehicleSpeed := (fVehicleSpeed * 100) * 1.43           ;Der Wert "1.43" ist meistens auf jedem Server anders. Die Geschwindigkeit wird somit erhГѓВ¶ht bzw. verringert
+    fVehicleSpeed := (fVehicleSpeed * 100) * 1.43           ;Der Wert "1.43" ist meistens auf jedem Server anders. Die Geschwindigkeit wird somit erhГѓВѓГ‚В¶ht bzw. verringert
  
 	return fVehicleSpeed
 }
@@ -3560,7 +3560,7 @@ getTargetVehicleSpeedById(dwId) {
     fSpeedZ := readMem(hGTA, dwAddr + ADDR_VEHICLE_Z, 4, "float")
     
     fVehicleSpeed :=  sqrt((fSpeedX * fSpeedX) + (fSpeedY * fSpeedY) + (fSpeedZ * fSpeedZ))
-    fVehicleSpeed := (fVehicleSpeed * 100) * 1.43           ;Der Wert "1.43" ist meistens auf jedem Server anders. Die Geschwindigkeit wird somit erhГѓВ¶ht bzw. verringert
+    fVehicleSpeed := (fVehicleSpeed * 100) * 1.43           ;Der Wert "1.43" ist meistens auf jedem Server anders. Die Geschwindigkeit wird somit erhГѓВѓГ‚В¶ht bzw. verringert
  
 	return fVehicleSpeed
 }
@@ -4474,7 +4474,7 @@ getVehicleSpeed() {
     fSpeedZ := readMem(hGTA, dwAddr + ADDR_VEHICLE_Z, 4, "float")
     
     fVehicleSpeed :=  sqrt((fSpeedX * fSpeedX) + (fSpeedY * fSpeedY) + (fSpeedZ * fSpeedZ))
-    fVehicleSpeed := (fVehicleSpeed * 100) * 1.43           ;Der Wert "1.43" ist meistens auf jedem Server anders. Die Geschwindigkeit wird somit erhГѓВ¶ht bzw. verringert
+    fVehicleSpeed := (fVehicleSpeed * 100) * 1.43           ;Der Wert "1.43" ist meistens auf jedem Server anders. Die Geschwindigkeit wird somit erhГѓВѓГ‚В¶ht bzw. verringert
  
 	return fVehicleSpeed
 }
@@ -5010,7 +5010,7 @@ calculateZone(posX, posY, posZ) {
     }
     
     ErrorLevel := ERROR_ZONE_NOT_FOUND
-    return "Неизвестно"
+    return "ГЌГҐГЁГ§ГўГҐГ±ГІГ­Г®"
 }
 
 calculateCity(posX, posY, posZ) {
@@ -5020,7 +5020,7 @@ calculateCity(posX, posY, posZ) {
         initZonesAndCities()
         bInitZaC := 1
     }
-    smallestCity := "Неизвестно"
+    smallestCity := "ГЌГҐГЁГ§ГўГҐГ±ГІГ­Г®"
     currentCitySize := 0
     smallestCitySize := 0
     
@@ -5029,7 +5029,7 @@ calculateCity(posX, posY, posZ) {
         if (posX >= city%A_Index%_x1) && (posY >= city%A_Index%_y1) && (posZ >= city%A_Index%_z1) && (posX <= city%A_Index%_x2) && (posY <= city%A_Index%_y2) && (posZ <= city%A_Index%_z2)
         {
             currentCitySize := ((city%A_Index%_x2 - city%A_Index%_x1) * (city%A_Index%_y2 - city%A_Index%_y1) * (city%A_Index%_z2 - city%A_Index%_z1))
-            if (smallestCity == "Неизвестно") || (currentCitySize < smallestCitySize)
+            if (smallestCity == "ГЌГҐГЁГ§ГўГҐГ±ГІГ­Г®") || (currentCitySize < smallestCitySize)
             {
                 smallestCity := city%A_Index%_name
                 smallestCitySize := currentCitySize
@@ -5037,7 +5037,7 @@ calculateCity(posX, posY, posZ) {
         }
     }
     
-    if(smallestCity == "Неизвестно") {
+    if(smallestCity == "ГЌГҐГЁГ§ГўГҐГ±ГІГ­Г®") {
         ErrorLevel := ERROR_CITY_NOT_FOUND
     } else {
         ErrorLevel := ERROR_OK
@@ -5164,7 +5164,7 @@ checkHandles() {
 
 ; internal stuff
 refreshGTA() {
-    newPID := getPID("Criminal Russia Multiplayer Ревизия G")
+    newPID := getPID("Criminal Russia Multiplayer ГђГҐГўГЁГ§ГЁГї G")
     if(!newPID) {                            ; GTA not found
         if(hGTA) {                            ; open handle
             virtualFreeEx(hGTA, pMemory, 0, 0x8000)
