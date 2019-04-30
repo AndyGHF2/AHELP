@@ -1,9 +1,9 @@
 #NoEnv
 #SingleInstance Force
 
-#Include libraries\JSON.ahk
-#Include libraries\Zip.ahk
-#Include scripts\ConfigReader.ahk
+#Include general\JSON.ahk
+#Include general\Zip.ahk
+#Include updfls\ConfigReader.ahk
 
 DetectHiddenWindows, On
 
